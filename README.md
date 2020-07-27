@@ -14,6 +14,7 @@ NanoPi NEO Core
 NanoPi NEO Core2  
 NanoPi K1 Plus  
 NanoPC T3  
+Widora TINY200 v2
   
 # Installation
 
