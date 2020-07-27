@@ -34,6 +34,7 @@
 #include <sys/stat.h>
 
 #include <wiringPi.h>
+//#include "sunxi_pins.h"
 
 extern int wpMode ;
 
@@ -239,6 +240,87 @@ static char *physNames_neo [MAX_PIN_COUNT] =
        NULL, NULL,
        NULL, NULL,  
 } ;
+
+static int physToWpi_tiny200 [MAX_PIN_COUNT] =
+        {
+                -1,        // 0
+                /* 24pins */
+                11, -1,   //  1,  2
+                10, -1,   //  3,  4
+                9,  -1,   //  5,  6
+                8,  -1,   //  7,  8
+                7,  -1,   //  9, 10
+                6,  -1,   // 11, 12
+                5,  -1,   // 13, 14
+                4,  -1,   // 15, 16
+                3, 15,   // 17, 18
+                2, 14,   // 19, 20
+                1, 13,   // 21, 22
+                0, 12,   // 23, 24
+
+                -1,  -1,  // 25, 26
+                -1,  -1,  // 27, 28
+                -1,  -1,  // 29, 30
+                -1,  -1,  // 31, 32
+                -1,  -1,  // 33, 34
+                -1,  -1,  // 35, 36
+                -1,  -1,  // 37, 38
+
+                /* 39~63 */
+                -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+                -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+
+                /* 64~73 */
+                -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        } ;
+
+static char *physNames_tiny200 [MAX_PIN_COUNT] =
+        {
+                NULL,
+                /* 24 Pin */
+                " GPIOE11", "COM",
+                " GPIOE10", "SOUNDOUT+",
+                " GPIOE09", "SOUNDOUT-",
+                " GPIOE08", "SOUNDIN+",
+                " GPIOE07", "SOUNDIN-",
+                " GPIOE06", "ADC",
+                " GPIOE05", "TVO",
+                " GPIOE04", "AGD",
+                " GPIOE03", "GPIOA0  ",
+                " GPIOE02", "GPIOA1  ",
+                " GPIOE01", "GPIOA2  ",
+                " GPIOE00", "GPIOA3  ",
+
+              /*tiny200 end*/
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,     //47, 48
+
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL,           //63
+
+                //64 ~ 73
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+        } ;
 
 static int physToWpi_duo [MAX_PIN_COUNT] =
 {
@@ -620,7 +702,10 @@ static void readallPhys (int faBoardId, int physPin, int pair)
   } else if (faBoardId == NanoPC_T3) {
       physToWpi = physToWpi_t3;
       physNames = physNames_t3;
-  } else {
+  } else if (faBoardId == TINY200) {
+      physToWpi = physToWpi_tiny200;
+      physNames = physNames_tiny200;
+  }else {
       return ;
   }
 
@@ -728,7 +813,10 @@ static void debugReadallPhys (int faBoardId, int physPin)
   } else if (faBoardId == NanoPC_T3) {
       physToWpi = physToWpi_t3;
       physNames = physNames_t3;
-  } else {
+  } else if (faBoardId == TINY200) {
+      physToWpi = physToWpi_tiny200;
+      physNames = physNames_tiny200;
+  }else {
       return ;
   }
 
@@ -794,6 +882,7 @@ void NanoPiReadAll()
     || retBoardInfo->boardTypeId == NanoPi_NEO_Plus2
     || retBoardInfo->boardTypeId == NanoPi_NEO_Core
     || retBoardInfo->boardTypeId == NanoPi_NEO_Core2
+    || retBoardInfo->boardTypeId == TINY200
     ) {
       pinCount = 24;
   } else if (retBoardInfo->boardTypeId == NanoPi_Duo 
@@ -832,7 +921,8 @@ void NanoPiReadAll()
   if (retBoardInfo->boardTypeId == NanoPi_M1 
     || retBoardInfo->boardTypeId == NanoPi_K1_Plus 
     || retBoardInfo->boardTypeId == NanoPi_M1_Plus 
-    || retBoardInfo->boardTypeId == NanoPi_M1_Plus2) {
+    || retBoardInfo->boardTypeId == NanoPi_M1_Plus2
+    || retBoardInfo->boardTypeId == TINY200) {
     // nothing to do.
   } else if (retBoardInfo->boardTypeId == NanoPi_NEO 
     || retBoardInfo->boardTypeId == NanoPi_NEO_Air 

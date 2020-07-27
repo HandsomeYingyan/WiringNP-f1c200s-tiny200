@@ -84,7 +84,8 @@
 #define	PI_MAKER_SONY		2
 #define	PI_MAKER_QISDA		3
 #define PI_MAKER_LEMAKER  4     //add for BananaPro by LeMaker team
-#define PI_MAKER_FRIENDLYELEC 5 //add for FriendlyELEC team 
+#define PI_MAKER_FRIENDLYELEC 5 //add for FriendlyELEC team
+#define PI_MAKER_HANDSOMEMOD 6 // add for HandsomeMod team
 
 #define BPRVER 3  //add for BananaPro by lemaker team
 
@@ -210,6 +211,7 @@ extern unsigned int millis            (void) ;
 extern unsigned int micros            (void) ;
 
 #include "boardtype_friendlyelec.h"
+#include "sunxi_pins.h"
 
 #ifdef __cplusplus
 }

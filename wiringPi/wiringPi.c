@@ -274,7 +274,7 @@ static volatile int pinPass = -1;
 
 // Debugging & Return codes
 
-int wiringPiDebug = FALSE; // guenter FALSE ;
+int wiringPiDebug = TRUE; // guenter FALSE ;
 int wiringPiReturnCodes = FALSE;
 
 // sysFds:
@@ -378,6 +378,37 @@ static int pinToGpio_neo [MAX_PIN_COUNT] ={
     -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
     /* 64~73 */
     -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+};
+
+static int pinToGpio_tiny200 [MAX_PIN_COUNT] ={
+        GPIO_PE00,         // 0
+        /* 24 Pin */
+        GPIO_PE01,   GPIO_PE02,  //  1,  2
+        GPIO_PE03,   GPIO_PE04,  //  3,  4
+        GPIO_PE05,   GPIO_PE06,  //  5,  6
+        GPIO_PE07,   GPIO_PE08,  //  7,  8
+        GPIO_PE09,   GPIO_PE10,  //  9, 10
+        GPIO_PE11,   GPIO_PA03,  // 11, 12
+        GPIO_PA02,   GPIO_PA01,  // 13, 14
+        GPIO_PA00,    -1,  // 15, 16
+        -1,     -1,  // 17, 18
+        -1,     -1,  // 19, 20
+        -1,      1,  // 21, 22
+        -1,     -1,  // 23, 24
+        /* 12 Pin */
+        -1, -1,   // 25, 26
+        -1, -1,   // 27, 28
+        -1, -1,   // 29, 30
+        -1, -1,   // 31, 32
+        -1, -1,   // 33, 34
+        -1, -1,   // 35, 36
+        /* UART0 Tx, Rx */
+        -1, -1,   // 37, 38
+        /* 39~63 */
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        /* 64~73 */
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
 };
 
 
@@ -568,6 +599,37 @@ static int physToGpio_neo [MAX_PIN_COUNT] ={
     -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
 };
 
+static int physToGpio_tiny200 [MAX_PIN_COUNT] ={
+        -1,         // 0
+        /* 24 Pin */
+        GPIO_PE11,   -1,  //  1,  2
+        GPIO_PE10,   -1,  //  3,  4
+        GPIO_PE09,   -1,  //  5,  6
+        GPIO_PE08,   -1,  //  7,  8
+        GPIO_PE07,   -1,  //  9, 10
+        GPIO_PE06,   -1,  // 11, 12
+        GPIO_PE05,   -1,  // 13, 14
+        GPIO_PE04,   -1,  // 15, 16
+        GPIO_PE03,   GPIO_PA00,  // 17, 18
+        GPIO_PE02,   GPIO_PA01,  // 19, 20
+        GPIO_PE01,   GPIO_PA02,  // 21, 22
+        GPIO_PE00,   GPIO_PA03,  // 23, 24
+        /* 12 Pin */
+        -1, -1,   // 25, 26
+        -1, -1,   // 27, 28
+        -1, -1,   // 29, 30
+        -1, -1,   // 31, 32
+        -1, -1,   // 33, 34
+        -1, -1,   // 35, 36
+        -1, -1,   // 37, 38
+        /* 39~63 */
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        /* 64~73 */
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+};
+
+
 static int physToGpio_t3 [MAX_PIN_COUNT] ={
     -1, 
     /* 30 Pin */
@@ -751,7 +813,7 @@ static int physToGpio_duo2 [MAX_PIN_COUNT] ={
      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
 };
 
-//
+//syspin area
 
 static int syspin_neo [MAX_PIN_COUNT] ={
     -1, -1, 2, 3, 4, 5, 6, 7, 
@@ -764,6 +826,19 @@ static int syspin_neo [MAX_PIN_COUNT] ={
     /* 64~73 */
     -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
 };
+
+static int syspin_tiny200 [MAX_PIN_COUNT] ={
+        -1, -1, 2, 3, 4, 5, 6, 7,
+        8, 9, 10, 11, 12, 13, 14, 15,
+        16, 17, 18, 19, 20, 21, 22, 23,
+        24, 25, 26, 27, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+
+        /* 64~73 */
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+};
+
 
 static int syspin_neocore [MAX_PIN_COUNT] ={
     -1, -1, 2, 3, 4, 5, 6, 7, 
@@ -902,6 +977,38 @@ static int physToPin_neo [MAX_PIN_COUNT] = //return wiringPI pin
     /* 64~73 */
     -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
 };
+
+static int physToPin_tiny200 [MAX_PIN_COUNT] = //return wiringPI pin
+        {
+                -1,       //  0
+                11, -1,   //  1,  2
+                10, -1,   //  3,  4
+                9,  -1,   //  5,  6
+                8,  -1,   //  7,  8
+                7,  -1,   //  9, 10
+                6,  -1,   // 11, 12
+                5,  -1,   // 13, 14
+                4,  -1,   // 15, 16
+                3, 15,   // 17, 18
+                2, 14,   // 19, 20
+                1, 13,   // 21, 22
+                0, 12,   // 23, 24
+
+                -1,  -1,  // 25, 26
+                -1,  -1,  // 27, 28
+                -1,  -1,  // 29, 30
+                -1,  -1,  // 31, 32
+                -1,  -1,  // 33, 34
+                -1,  -1,  // 35, 36
+                -1,  -1,  // 37, 38
+
+                /* 39~63 */
+                -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+                -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+
+                /* 64~73 */
+                -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        };
 
 static int physToPin_t3 [MAX_PIN_COUNT] = //return wiringPI pin
 {
@@ -1061,7 +1168,7 @@ static int BP_PIN_MASK[9][32] = //[BANK]  [INDEX]
     {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 26, -1, 28, 29, 30, 31,}, //PB
     { 0,  1,  2,  3,  4, -1, -1,  7,  8, -1, -1, -1, -1, 13, 14, -1, -1, -1, -1, -1, -1, -1, -1, -1, 24, -1, -1, -1, 28, 29, 30, 31,}, //PC
     { 0,  1, -1, -1, -1, -1, -1, -1,  8, -1, -1, -1, -1, -1, 14, -1, 16, 17, -1, -1, 20, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,}, //PD
-    {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,}, //PE
+    {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,}, //PE
     {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,}, //PF
     {-1, -1, -1, -1, -1, -1, 6, 7, 8, 9, -1, 11, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,}, //PG
     {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,}, //PH
@@ -2784,7 +2891,13 @@ int wiringPiSetup(void) {
 	    physToGpio = physToGpio_neocore;
 	    physToPin = physToPin_neocore;
 	    syspin = syspin_neocore;
-    } else {
+    } else if(faBoardId == TINY200){
+        pinToGpio = pinToGpio_tiny200;
+        physToGpio = physToGpio_tiny200;
+        physToPin = physToPin_tiny200;
+        syspin = syspin_tiny200;
+    }
+    else {
             if (wiringPiDebug)
         printf("wiringPi: wiringPiSetup fail!\n");
 	    return -1;
@@ -2888,6 +3001,10 @@ int wiringPiSetupSys(void) {
         pinToGpio = pinToGpio_neocore;
         physToGpio = physToGpio_neocore;
         physToPin = physToPin_neocore;
+    } else if (faBoardId == TINY200) {
+        pinToGpio = pinToGpio_tiny200;
+        physToGpio = physToGpio_tiny200;
+        physToPin = physToPin_tiny200;
     }
 
     for (pin = 1; pin < MAX_PIN_COUNT; ++pin) {
