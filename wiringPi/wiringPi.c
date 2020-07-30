@@ -274,7 +274,7 @@ static volatile int pinPass = -1;
 
 // Debugging & Return codes
 
-int wiringPiDebug = TRUE; // guenter FALSE ;
+int wiringPiDebug = FALSE; // guenter FALSE ;
 int wiringPiReturnCodes = FALSE;
 
 // sysFds:
