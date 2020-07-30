@@ -60,19 +60,12 @@ SRC	=	wiringPi.c						\
 
 OBJ	=	$(SRC:.c=.o)
 
-all:		$(DYNAMIC)
-
-static:		$(STATIC)
-
-$(STATIC):	$(OBJ)
+all:	$(OBJ)
+	@echo "[Link (Dynamic)]"
+	@$(CC) -shared -Wl,-soname,libwiringPi.so -o libwiringPi.so.$(VERSION) -lpthread $(OBJ)
 	@echo "[Link (Static)]"
 	@ar rcs $(STATIC) $(OBJ)
 	@ranlib $(STATIC)
-#	@size   $(STATIC)
-
-$(DYNAMIC):	$(OBJ)
-	@echo "[Link (Dynamic)]"
-	@$(CC) -shared -Wl,-soname,libwiringPi.so -o libwiringPi.so.$(VERSION) -lpthread $(OBJ)
 
 .c.o:
 	@echo [Compile] $<
@@ -125,13 +118,10 @@ install:	$(DYNAMIC) install-headers
 	@install -m 0755 -d						$(DESTDIR)$(PREFIX)/lib
 	@install -m 0755 libwiringPi.so.$(VERSION)			$(DESTDIR)$(PREFIX)/lib/libwiringPi.so.$(VERSION)
 	@ln -sf $(DESTDIR)$(PREFIX)/lib/libwiringPi.so.$(VERSION)	$(DESTDIR)/lib/libwiringPi.so
-	@ldconfig
-
-.PHONEY:	install-static
-install-static:	$(STATIC) install-headers
 	@echo "[Install Static Lib]"
 	@install -m 0755 -d			$(DESTDIR)$(PREFIX)/lib
 	@install -m 0755 libwiringPi.a		$(DESTDIR)$(PREFIX)/lib
+	@ldconfig
 
 .PHONEY:	uninstall
 uninstall:
