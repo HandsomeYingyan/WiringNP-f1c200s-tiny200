@@ -244,7 +244,7 @@ static char *physNames_neo [MAX_PIN_COUNT] =
 static int physToWpi_tiny200 [MAX_PIN_COUNT] =
         {
                 -1,        // 0
-                /* 24pins */
+                /* 36 pins */
                 11, -1,   //  1,  2
                 10, -1,   //  3,  4
                 9,  -1,   //  5,  6
@@ -277,34 +277,32 @@ static int physToWpi_tiny200 [MAX_PIN_COUNT] =
 static char *physNames_tiny200 [MAX_PIN_COUNT] =
         {
                 NULL,
-                /* 24 Pin */
-                " GPIOE11", "COM",
-                " GPIOE10", "SOUNDOUT+",
-                " GPIOE09", "SOUNDOUT-",
-                " GPIOE08", "SOUNDIN+",
-                " GPIOE07", "SOUNDIN-",
-                " GPIOE06", "ADC",
-                " GPIOE05", "TVO",
-                " GPIOE04", "AGD",
+                /* 36 Pin */
+                " GPIOE11", "COM ",
+                " GPIOE10", "OUT ",
+                " GPIOE09", "OUT ",
+                " GPIOE08", "INL ",
+                " GPIOE07", "INR ",
+                " GPIOE06", "ADC ",
+                " GPIOE05", "TVO ",
+                " GPIOE04", "AGD ",
                 " GPIOE03", "GPIOA0  ",
                 " GPIOE02", "GPIOA1  ",
                 " GPIOE01", "GPIOA2  ",
                 " GPIOE00", "GPIOA3  ",
-
-              /*tiny200 end*/
-                NULL, NULL,
-                NULL, NULL,
-                NULL, NULL,
-                NULL, NULL,
-                NULL, NULL,
-                NULL, NULL,
+                NULL, "3V3 ",
+                NULL, "RST ",
+                NULL, "GND ",
+                NULL, "SDA ",
+                NULL, "SCL ",
+                NULL, "VIN ",
+                /*End*/
                 NULL, NULL,
                 NULL, NULL,
                 NULL, NULL,
                 NULL, NULL,
                 NULL, NULL,
                 NULL, NULL,     //47, 48
-
                 NULL, NULL,
                 NULL, NULL,
                 NULL, NULL,
@@ -321,6 +319,82 @@ static char *physNames_tiny200 [MAX_PIN_COUNT] =
                 NULL, NULL,
                 NULL, NULL,
         } ;
+
+static int physToWpi_lichee_nano [MAX_PIN_COUNT] = { 
+        -1,         // 0
+        /* 18 Pin */
+        0,   1,  //  1,  2
+        2,   3,  //  3,  4
+        4,   5,  //  5,  6
+        6,   -1,  //  7,  8
+        7,   -1,  //  9, 10
+        8,   -1,  // 11, 12
+        9,   10,  // 13, 14
+        11,   12,  // 15, 16
+        13,   14,  // 17, 18
+        15,   16,  // 19, 20
+        -1,   -1,  // 21, 22
+        -1,   -1,  // 23, 24
+        -1, -1,   // 25, 26
+        -1, -1,   // 27, 28
+        -1, -1,   // 29, 30
+        -1, -1,   // 31, 32
+        -1, -1,   // 33, 34
+        -1, -1,   // 35, 36
+        -1, -1,   // 37, 38
+        /* 39~63 */
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        /* 64~73 */
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+};
+
+static char *physNames_lichee_nano [MAX_PIN_COUNT] =
+        {
+                NULL,
+                /* 18 Pin */
+                " GPIOE03", "GPIOE02 ",
+                " GPIOE04", "GPIOE01 ",
+                " GPIOE05", "GPIOE00 ",
+                " GPIOE06", "5v ",
+                " GPIOE07", "GND ",
+                " GPIOE08", "3.3v ",
+                " GPIOE09", "GPIOA03 ",
+                " GPIOE10", "GPIOA02 ",
+                " GPIOE11", "GPIOA01  ",
+                /*End*/
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,     //47, 48
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL,           //63
+
+                //64 ~ 73
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+                NULL, NULL,
+        } ;
+
 
 static int physToWpi_duo [MAX_PIN_COUNT] =
 {
@@ -816,6 +890,9 @@ static void debugReadallPhys (int faBoardId, int physPin)
   } else if (faBoardId == TINY200) {
       physToWpi = physToWpi_tiny200;
       physNames = physNames_tiny200;
+  } else if (faBoardId == LicheePi_Nano) {
+      physToWpi = physToWpi_lichee_nano;
+      physNames = physNames_lichee_nano;
   }else {
       return ;
   }
@@ -874,7 +951,8 @@ void NanoPiReadAll()
   if (retBoardInfo->boardTypeId == NanoPi_M1 
     || retBoardInfo->boardTypeId == NanoPi_K1_Plus 
     || retBoardInfo->boardTypeId == NanoPi_M1_Plus 
-    || retBoardInfo->boardTypeId == NanoPi_M1_Plus2) {
+    || retBoardInfo->boardTypeId == NanoPi_M1_Plus2
+    || retBoardInfo->boardTypeId == TINY200) {
       pinCount = 40;
   } else if (retBoardInfo->boardTypeId == NanoPi_NEO 
     || retBoardInfo->boardTypeId == NanoPi_NEO_Air 
@@ -882,8 +960,7 @@ void NanoPiReadAll()
     || retBoardInfo->boardTypeId == NanoPi_NEO_Plus2
     || retBoardInfo->boardTypeId == NanoPi_NEO_Core
     || retBoardInfo->boardTypeId == NanoPi_NEO_Core2
-    || retBoardInfo->boardTypeId == TINY200
-    ) {
+    || retBoardInfo->boardTypeId == LicheePi_Nano) {
       pinCount = 24;
   } else if (retBoardInfo->boardTypeId == NanoPi_Duo 
     || retBoardInfo->boardTypeId == NanoPi_Duo2) {
@@ -922,7 +999,8 @@ void NanoPiReadAll()
     || retBoardInfo->boardTypeId == NanoPi_K1_Plus 
     || retBoardInfo->boardTypeId == NanoPi_M1_Plus 
     || retBoardInfo->boardTypeId == NanoPi_M1_Plus2
-    || retBoardInfo->boardTypeId == TINY200) {
+    || retBoardInfo->boardTypeId == TINY200
+    || retBoardInfo->boardTypeId == LicheePi_Nano {
     // nothing to do.
   } else if (retBoardInfo->boardTypeId == NanoPi_NEO 
     || retBoardInfo->boardTypeId == NanoPi_NEO_Air 
