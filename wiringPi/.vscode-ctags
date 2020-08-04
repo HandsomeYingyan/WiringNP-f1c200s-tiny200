@@ -1,0 +1,921 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3f0ea94c6/
+ALLWINNER_BASE	boardtype_friendlyelec.h	/^#define ALLWINNER_BASE /;"	d
+ALLWINNER_MAX	boardtype_friendlyelec.h	/^#define ALLWINNER_MAX /;"	d
+AMLOGIC_BASE	boardtype_friendlyelec.h	/^#define AMLOGIC_BASE /;"	d
+BCM2708_PERI_BASE	wiringPi.c	/^#define BCM2708_PERI_BASE /;"	d	file:
+BCM_PASSWORD	wiringPi.c	/^#define BCM_PASSWORD /;"	d	file:
+BLOCK_SIZE	wiringPi.c	/^#define BLOCK_SIZE /;"	d	file:
+BPRVER	wiringPi.h	/^#define BPRVER /;"	d
+BP_PIN_MASK	wiringPi.c	/^static int BP_PIN_MASK[9][32] = \/\/[BANK]  [INDEX]$/;"	v	typeref:typename:int[9][32]	file:
+BoardHardwareInfo	boardtype_friendlyelec.h	/^} BoardHardwareInfo;$/;"	t	typeref:struct:__anone174757a0108
+BoardID	wiringPi.c	/^int BoardID  = 0;$/;"	v	typeref:typename:int
+CLOCK_BASE	wiringPi.c	/^#define CLOCK_BASE /;"	d	file:
+CLOCK_BASE_BP	wiringPi.c	/^#define CLOCK_BASE_BP /;"	d	file:
+CMD_READ	mcp23x08.h	/^#define CMD_READ	/;"	d
+CMD_READ	mcp23x0817.h	/^#define CMD_READ	/;"	d
+CMD_WRITE	mcp23x08.h	/^#define	CMD_WRITE	/;"	d
+CMD_WRITE	mcp23x0817.h	/^#define	CMD_WRITE	/;"	d
+DEFVALA	mcp23x08.h	/^#define	DEFVALA	/;"	d
+DEFVALB	mcp23x08.h	/^#define	DEFVALB	/;"	d
+ENV_CODES	wiringPi.c	/^#define ENV_CODES /;"	d	file:
+ENV_DEBUG	wiringPi.c	/^#define ENV_DEBUG /;"	d	file:
+FALSE	drcSerial.c	/^#  define	FALSE	/;"	d	file:
+FALSE	wiringPi.c	/^#define FALSE /;"	d	file:
+FSEL_ALT0	wiringPi.c	/^#define FSEL_ALT0 /;"	d	file:
+FSEL_ALT1	wiringPi.c	/^#define FSEL_ALT1 /;"	d	file:
+FSEL_ALT2	wiringPi.c	/^#define FSEL_ALT2 /;"	d	file:
+FSEL_ALT3	wiringPi.c	/^#define FSEL_ALT3 /;"	d	file:
+FSEL_ALT4	wiringPi.c	/^#define FSEL_ALT4 /;"	d	file:
+FSEL_ALT5	wiringPi.c	/^#define FSEL_ALT5 /;"	d	file:
+FSEL_INPT	wiringPi.c	/^#define FSEL_INPT /;"	d	file:
+FSEL_OUTP	wiringPi.c	/^#define FSEL_OUTP /;"	d	file:
+GPINTENA	mcp23x08.h	/^#define	GPINTENA	/;"	d
+GPINTENB	mcp23x08.h	/^#define	GPINTENB	/;"	d
+GPIOA	mcp23x08.h	/^#define	GPIOA	/;"	d
+GPIOB	mcp23x08.h	/^#define	GPIOB	/;"	d
+GPIO_BASE	wiringPi.c	/^#define GPIO_BASE /;"	d	file:
+GPIO_BASE_BP	wiringPi.c	/^#define GPIO_BASE_BP /;"	d	file:
+GPIO_CLOCK	wiringPi.h	/^#define	GPIO_CLOCK	/;"	d
+GPIO_PA00	sunxi_pins.h	/^#define GPIO_PA00	/;"	d
+GPIO_PA01	sunxi_pins.h	/^#define GPIO_PA01	/;"	d
+GPIO_PA02	sunxi_pins.h	/^#define GPIO_PA02	/;"	d
+GPIO_PA03	sunxi_pins.h	/^#define GPIO_PA03	/;"	d
+GPIO_PA04	sunxi_pins.h	/^#define GPIO_PA04	/;"	d
+GPIO_PA05	sunxi_pins.h	/^#define GPIO_PA05	/;"	d
+GPIO_PA06	sunxi_pins.h	/^#define GPIO_PA06	/;"	d
+GPIO_PA07	sunxi_pins.h	/^#define GPIO_PA07	/;"	d
+GPIO_PA08	sunxi_pins.h	/^#define GPIO_PA08	/;"	d
+GPIO_PA09	sunxi_pins.h	/^#define GPIO_PA09	/;"	d
+GPIO_PA10	sunxi_pins.h	/^#define GPIO_PA10	/;"	d
+GPIO_PA11	sunxi_pins.h	/^#define GPIO_PA11	/;"	d
+GPIO_PA12	sunxi_pins.h	/^#define GPIO_PA12	/;"	d
+GPIO_PA13	sunxi_pins.h	/^#define GPIO_PA13	/;"	d
+GPIO_PA14	sunxi_pins.h	/^#define GPIO_PA14	/;"	d
+GPIO_PA15	sunxi_pins.h	/^#define GPIO_PA15	/;"	d
+GPIO_PA16	sunxi_pins.h	/^#define GPIO_PA16	/;"	d
+GPIO_PA17	sunxi_pins.h	/^#define GPIO_PA17	/;"	d
+GPIO_PA18	sunxi_pins.h	/^#define GPIO_PA18	/;"	d
+GPIO_PA19	sunxi_pins.h	/^#define GPIO_PA19	/;"	d
+GPIO_PA20	sunxi_pins.h	/^#define GPIO_PA20	/;"	d
+GPIO_PA21	sunxi_pins.h	/^#define GPIO_PA21	/;"	d
+GPIO_PA22	sunxi_pins.h	/^#define GPIO_PA22	/;"	d
+GPIO_PA23	sunxi_pins.h	/^#define GPIO_PA23	/;"	d
+GPIO_PA24	sunxi_pins.h	/^#define GPIO_PA24	/;"	d
+GPIO_PA25	sunxi_pins.h	/^#define GPIO_PA25	/;"	d
+GPIO_PA26	sunxi_pins.h	/^#define GPIO_PA26	/;"	d
+GPIO_PA27	sunxi_pins.h	/^#define GPIO_PA27	/;"	d
+GPIO_PA28	sunxi_pins.h	/^#define GPIO_PA28	/;"	d
+GPIO_PA29	sunxi_pins.h	/^#define GPIO_PA29	/;"	d
+GPIO_PA30	sunxi_pins.h	/^#define GPIO_PA30	/;"	d
+GPIO_PA31	sunxi_pins.h	/^#define GPIO_PA31	/;"	d
+GPIO_PADS	wiringPi.c	/^#define GPIO_PADS /;"	d	file:
+GPIO_PADS_BP	wiringPi.c	/^#define GPIO_PADS_BP /;"	d	file:
+GPIO_PB00	sunxi_pins.h	/^#define GPIO_PB00	/;"	d
+GPIO_PB01	sunxi_pins.h	/^#define GPIO_PB01	/;"	d
+GPIO_PB02	sunxi_pins.h	/^#define GPIO_PB02	/;"	d
+GPIO_PB03	sunxi_pins.h	/^#define GPIO_PB03	/;"	d
+GPIO_PB04	sunxi_pins.h	/^#define GPIO_PB04	/;"	d
+GPIO_PB05	sunxi_pins.h	/^#define GPIO_PB05	/;"	d
+GPIO_PB06	sunxi_pins.h	/^#define GPIO_PB06	/;"	d
+GPIO_PB07	sunxi_pins.h	/^#define GPIO_PB07	/;"	d
+GPIO_PB08	sunxi_pins.h	/^#define GPIO_PB08	/;"	d
+GPIO_PB09	sunxi_pins.h	/^#define GPIO_PB09	/;"	d
+GPIO_PB10	sunxi_pins.h	/^#define GPIO_PB10	/;"	d
+GPIO_PB11	sunxi_pins.h	/^#define GPIO_PB11	/;"	d
+GPIO_PB12	sunxi_pins.h	/^#define GPIO_PB12	/;"	d
+GPIO_PB13	sunxi_pins.h	/^#define GPIO_PB13	/;"	d
+GPIO_PB14	sunxi_pins.h	/^#define GPIO_PB14	/;"	d
+GPIO_PB15	sunxi_pins.h	/^#define GPIO_PB15	/;"	d
+GPIO_PB16	sunxi_pins.h	/^#define GPIO_PB16	/;"	d
+GPIO_PB17	sunxi_pins.h	/^#define GPIO_PB17	/;"	d
+GPIO_PB18	sunxi_pins.h	/^#define GPIO_PB18	/;"	d
+GPIO_PB19	sunxi_pins.h	/^#define GPIO_PB19	/;"	d
+GPIO_PB20	sunxi_pins.h	/^#define GPIO_PB20	/;"	d
+GPIO_PB21	sunxi_pins.h	/^#define GPIO_PB21	/;"	d
+GPIO_PB22	sunxi_pins.h	/^#define GPIO_PB22	/;"	d
+GPIO_PB23	sunxi_pins.h	/^#define GPIO_PB23	/;"	d
+GPIO_PB24	sunxi_pins.h	/^#define GPIO_PB24	/;"	d
+GPIO_PB25	sunxi_pins.h	/^#define GPIO_PB25	/;"	d
+GPIO_PB26	sunxi_pins.h	/^#define GPIO_PB26	/;"	d
+GPIO_PB27	sunxi_pins.h	/^#define GPIO_PB27	/;"	d
+GPIO_PB28	sunxi_pins.h	/^#define GPIO_PB28	/;"	d
+GPIO_PB29	sunxi_pins.h	/^#define GPIO_PB29	/;"	d
+GPIO_PB30	sunxi_pins.h	/^#define GPIO_PB30	/;"	d
+GPIO_PB31	sunxi_pins.h	/^#define GPIO_PB31	/;"	d
+GPIO_PC00	sunxi_pins.h	/^#define GPIO_PC00	/;"	d
+GPIO_PC01	sunxi_pins.h	/^#define GPIO_PC01	/;"	d
+GPIO_PC02	sunxi_pins.h	/^#define GPIO_PC02	/;"	d
+GPIO_PC03	sunxi_pins.h	/^#define GPIO_PC03	/;"	d
+GPIO_PC04	sunxi_pins.h	/^#define GPIO_PC04	/;"	d
+GPIO_PC05	sunxi_pins.h	/^#define GPIO_PC05	/;"	d
+GPIO_PC06	sunxi_pins.h	/^#define GPIO_PC06	/;"	d
+GPIO_PC07	sunxi_pins.h	/^#define GPIO_PC07	/;"	d
+GPIO_PC08	sunxi_pins.h	/^#define GPIO_PC08	/;"	d
+GPIO_PC09	sunxi_pins.h	/^#define GPIO_PC09	/;"	d
+GPIO_PC10	sunxi_pins.h	/^#define GPIO_PC10	/;"	d
+GPIO_PC11	sunxi_pins.h	/^#define GPIO_PC11	/;"	d
+GPIO_PC12	sunxi_pins.h	/^#define GPIO_PC12	/;"	d
+GPIO_PC13	sunxi_pins.h	/^#define GPIO_PC13	/;"	d
+GPIO_PC14	sunxi_pins.h	/^#define GPIO_PC14	/;"	d
+GPIO_PC15	sunxi_pins.h	/^#define GPIO_PC15	/;"	d
+GPIO_PC16	sunxi_pins.h	/^#define GPIO_PC16	/;"	d
+GPIO_PC17	sunxi_pins.h	/^#define GPIO_PC17	/;"	d
+GPIO_PC18	sunxi_pins.h	/^#define GPIO_PC18	/;"	d
+GPIO_PC19	sunxi_pins.h	/^#define GPIO_PC19	/;"	d
+GPIO_PC20	sunxi_pins.h	/^#define GPIO_PC20	/;"	d
+GPIO_PC21	sunxi_pins.h	/^#define GPIO_PC21	/;"	d
+GPIO_PC22	sunxi_pins.h	/^#define GPIO_PC22	/;"	d
+GPIO_PC23	sunxi_pins.h	/^#define GPIO_PC23	/;"	d
+GPIO_PC24	sunxi_pins.h	/^#define GPIO_PC24	/;"	d
+GPIO_PC25	sunxi_pins.h	/^#define GPIO_PC25	/;"	d
+GPIO_PC26	sunxi_pins.h	/^#define GPIO_PC26	/;"	d
+GPIO_PC27	sunxi_pins.h	/^#define GPIO_PC27	/;"	d
+GPIO_PC28	sunxi_pins.h	/^#define GPIO_PC28	/;"	d
+GPIO_PC29	sunxi_pins.h	/^#define GPIO_PC29	/;"	d
+GPIO_PC30	sunxi_pins.h	/^#define GPIO_PC30	/;"	d
+GPIO_PC31	sunxi_pins.h	/^#define GPIO_PC31	/;"	d
+GPIO_PD00	sunxi_pins.h	/^#define GPIO_PD00	/;"	d
+GPIO_PD01	sunxi_pins.h	/^#define GPIO_PD01	/;"	d
+GPIO_PD02	sunxi_pins.h	/^#define GPIO_PD02	/;"	d
+GPIO_PD03	sunxi_pins.h	/^#define GPIO_PD03	/;"	d
+GPIO_PD04	sunxi_pins.h	/^#define GPIO_PD04	/;"	d
+GPIO_PD05	sunxi_pins.h	/^#define GPIO_PD05	/;"	d
+GPIO_PD06	sunxi_pins.h	/^#define GPIO_PD06	/;"	d
+GPIO_PD07	sunxi_pins.h	/^#define GPIO_PD07	/;"	d
+GPIO_PD08	sunxi_pins.h	/^#define GPIO_PD08	/;"	d
+GPIO_PD09	sunxi_pins.h	/^#define GPIO_PD09	/;"	d
+GPIO_PD10	sunxi_pins.h	/^#define GPIO_PD10	/;"	d
+GPIO_PD11	sunxi_pins.h	/^#define GPIO_PD11	/;"	d
+GPIO_PD12	sunxi_pins.h	/^#define GPIO_PD12	/;"	d
+GPIO_PD13	sunxi_pins.h	/^#define GPIO_PD13	/;"	d
+GPIO_PD14	sunxi_pins.h	/^#define GPIO_PD14	/;"	d
+GPIO_PD15	sunxi_pins.h	/^#define GPIO_PD15	/;"	d
+GPIO_PD16	sunxi_pins.h	/^#define GPIO_PD16	/;"	d
+GPIO_PD17	sunxi_pins.h	/^#define GPIO_PD17	/;"	d
+GPIO_PD18	sunxi_pins.h	/^#define GPIO_PD18	/;"	d
+GPIO_PD19	sunxi_pins.h	/^#define GPIO_PD19	/;"	d
+GPIO_PD20	sunxi_pins.h	/^#define GPIO_PD20	/;"	d
+GPIO_PD21	sunxi_pins.h	/^#define GPIO_PD21	/;"	d
+GPIO_PD22	sunxi_pins.h	/^#define GPIO_PD22	/;"	d
+GPIO_PD23	sunxi_pins.h	/^#define GPIO_PD23	/;"	d
+GPIO_PD24	sunxi_pins.h	/^#define GPIO_PD24	/;"	d
+GPIO_PD25	sunxi_pins.h	/^#define GPIO_PD25	/;"	d
+GPIO_PD26	sunxi_pins.h	/^#define GPIO_PD26	/;"	d
+GPIO_PD27	sunxi_pins.h	/^#define GPIO_PD27	/;"	d
+GPIO_PD28	sunxi_pins.h	/^#define GPIO_PD28	/;"	d
+GPIO_PD29	sunxi_pins.h	/^#define GPIO_PD29	/;"	d
+GPIO_PD30	sunxi_pins.h	/^#define GPIO_PD30	/;"	d
+GPIO_PD31	sunxi_pins.h	/^#define GPIO_PD31	/;"	d
+GPIO_PE00	sunxi_pins.h	/^#define GPIO_PE00	/;"	d
+GPIO_PE01	sunxi_pins.h	/^#define GPIO_PE01	/;"	d
+GPIO_PE02	sunxi_pins.h	/^#define GPIO_PE02	/;"	d
+GPIO_PE03	sunxi_pins.h	/^#define GPIO_PE03	/;"	d
+GPIO_PE04	sunxi_pins.h	/^#define GPIO_PE04	/;"	d
+GPIO_PE05	sunxi_pins.h	/^#define GPIO_PE05	/;"	d
+GPIO_PE06	sunxi_pins.h	/^#define GPIO_PE06	/;"	d
+GPIO_PE07	sunxi_pins.h	/^#define GPIO_PE07	/;"	d
+GPIO_PE08	sunxi_pins.h	/^#define GPIO_PE08	/;"	d
+GPIO_PE09	sunxi_pins.h	/^#define GPIO_PE09	/;"	d
+GPIO_PE10	sunxi_pins.h	/^#define GPIO_PE10	/;"	d
+GPIO_PE11	sunxi_pins.h	/^#define GPIO_PE11	/;"	d
+GPIO_PE12	sunxi_pins.h	/^#define GPIO_PE12	/;"	d
+GPIO_PE13	sunxi_pins.h	/^#define GPIO_PE13	/;"	d
+GPIO_PE14	sunxi_pins.h	/^#define GPIO_PE14	/;"	d
+GPIO_PE15	sunxi_pins.h	/^#define GPIO_PE15	/;"	d
+GPIO_PE16	sunxi_pins.h	/^#define GPIO_PE16	/;"	d
+GPIO_PE17	sunxi_pins.h	/^#define GPIO_PE17	/;"	d
+GPIO_PE18	sunxi_pins.h	/^#define GPIO_PE18	/;"	d
+GPIO_PE19	sunxi_pins.h	/^#define GPIO_PE19	/;"	d
+GPIO_PE20	sunxi_pins.h	/^#define GPIO_PE20	/;"	d
+GPIO_PE21	sunxi_pins.h	/^#define GPIO_PE21	/;"	d
+GPIO_PE22	sunxi_pins.h	/^#define GPIO_PE22	/;"	d
+GPIO_PE23	sunxi_pins.h	/^#define GPIO_PE23	/;"	d
+GPIO_PE24	sunxi_pins.h	/^#define GPIO_PE24	/;"	d
+GPIO_PE25	sunxi_pins.h	/^#define GPIO_PE25	/;"	d
+GPIO_PE26	sunxi_pins.h	/^#define GPIO_PE26	/;"	d
+GPIO_PE27	sunxi_pins.h	/^#define GPIO_PE27	/;"	d
+GPIO_PE28	sunxi_pins.h	/^#define GPIO_PE28	/;"	d
+GPIO_PE29	sunxi_pins.h	/^#define GPIO_PE29	/;"	d
+GPIO_PE30	sunxi_pins.h	/^#define GPIO_PE30	/;"	d
+GPIO_PE31	sunxi_pins.h	/^#define GPIO_PE31	/;"	d
+GPIO_PG00	sunxi_pins.h	/^#define GPIO_PG00	/;"	d
+GPIO_PG01	sunxi_pins.h	/^#define GPIO_PG01	/;"	d
+GPIO_PG02	sunxi_pins.h	/^#define GPIO_PG02	/;"	d
+GPIO_PG03	sunxi_pins.h	/^#define GPIO_PG03	/;"	d
+GPIO_PG04	sunxi_pins.h	/^#define GPIO_PG04	/;"	d
+GPIO_PG05	sunxi_pins.h	/^#define GPIO_PG05	/;"	d
+GPIO_PG06	sunxi_pins.h	/^#define GPIO_PG06	/;"	d
+GPIO_PG07	sunxi_pins.h	/^#define GPIO_PG07	/;"	d
+GPIO_PG08	sunxi_pins.h	/^#define GPIO_PG08	/;"	d
+GPIO_PG09	sunxi_pins.h	/^#define GPIO_PG09	/;"	d
+GPIO_PG10	sunxi_pins.h	/^#define GPIO_PG10	/;"	d
+GPIO_PG11	sunxi_pins.h	/^#define GPIO_PG11	/;"	d
+GPIO_PG12	sunxi_pins.h	/^#define GPIO_PG12	/;"	d
+GPIO_PG13	sunxi_pins.h	/^#define GPIO_PG13	/;"	d
+GPIO_PG14	sunxi_pins.h	/^#define GPIO_PG14	/;"	d
+GPIO_PG15	sunxi_pins.h	/^#define GPIO_PG15	/;"	d
+GPIO_PG16	sunxi_pins.h	/^#define GPIO_PG16	/;"	d
+GPIO_PG17	sunxi_pins.h	/^#define GPIO_PG17	/;"	d
+GPIO_PG18	sunxi_pins.h	/^#define GPIO_PG18	/;"	d
+GPIO_PG19	sunxi_pins.h	/^#define GPIO_PG19	/;"	d
+GPIO_PG20	sunxi_pins.h	/^#define GPIO_PG20	/;"	d
+GPIO_PG21	sunxi_pins.h	/^#define GPIO_PG21	/;"	d
+GPIO_PG22	sunxi_pins.h	/^#define GPIO_PG22	/;"	d
+GPIO_PG23	sunxi_pins.h	/^#define GPIO_PG23	/;"	d
+GPIO_PG24	sunxi_pins.h	/^#define GPIO_PG24	/;"	d
+GPIO_PG25	sunxi_pins.h	/^#define GPIO_PG25	/;"	d
+GPIO_PG26	sunxi_pins.h	/^#define GPIO_PG26	/;"	d
+GPIO_PG27	sunxi_pins.h	/^#define GPIO_PG27	/;"	d
+GPIO_PG28	sunxi_pins.h	/^#define GPIO_PG28	/;"	d
+GPIO_PG29	sunxi_pins.h	/^#define GPIO_PG29	/;"	d
+GPIO_PG30	sunxi_pins.h	/^#define GPIO_PG30	/;"	d
+GPIO_PG31	sunxi_pins.h	/^#define GPIO_PG31	/;"	d
+GPIO_PH00	sunxi_pins.h	/^#define GPIO_PH00	/;"	d
+GPIO_PH01	sunxi_pins.h	/^#define GPIO_PH01	/;"	d
+GPIO_PH02	sunxi_pins.h	/^#define GPIO_PH02	/;"	d
+GPIO_PH03	sunxi_pins.h	/^#define GPIO_PH03	/;"	d
+GPIO_PH04	sunxi_pins.h	/^#define GPIO_PH04	/;"	d
+GPIO_PH05	sunxi_pins.h	/^#define GPIO_PH05	/;"	d
+GPIO_PH06	sunxi_pins.h	/^#define GPIO_PH06	/;"	d
+GPIO_PH07	sunxi_pins.h	/^#define GPIO_PH07	/;"	d
+GPIO_PH08	sunxi_pins.h	/^#define GPIO_PH08	/;"	d
+GPIO_PH09	sunxi_pins.h	/^#define GPIO_PH09	/;"	d
+GPIO_PH10	sunxi_pins.h	/^#define GPIO_PH10	/;"	d
+GPIO_PH11	sunxi_pins.h	/^#define GPIO_PH11	/;"	d
+GPIO_PH12	sunxi_pins.h	/^#define GPIO_PH12	/;"	d
+GPIO_PH13	sunxi_pins.h	/^#define GPIO_PH13	/;"	d
+GPIO_PH14	sunxi_pins.h	/^#define GPIO_PH14	/;"	d
+GPIO_PH15	sunxi_pins.h	/^#define GPIO_PH15	/;"	d
+GPIO_PH16	sunxi_pins.h	/^#define GPIO_PH16	/;"	d
+GPIO_PH17	sunxi_pins.h	/^#define GPIO_PH17	/;"	d
+GPIO_PH18	sunxi_pins.h	/^#define GPIO_PH18	/;"	d
+GPIO_PH19	sunxi_pins.h	/^#define GPIO_PH19	/;"	d
+GPIO_PH20	sunxi_pins.h	/^#define GPIO_PH20	/;"	d
+GPIO_PH21	sunxi_pins.h	/^#define GPIO_PH21	/;"	d
+GPIO_PH22	sunxi_pins.h	/^#define GPIO_PH22	/;"	d
+GPIO_PH23	sunxi_pins.h	/^#define GPIO_PH23	/;"	d
+GPIO_PH24	sunxi_pins.h	/^#define GPIO_PH24	/;"	d
+GPIO_PH25	sunxi_pins.h	/^#define GPIO_PH25	/;"	d
+GPIO_PH26	sunxi_pins.h	/^#define GPIO_PH26	/;"	d
+GPIO_PH27	sunxi_pins.h	/^#define GPIO_PH27	/;"	d
+GPIO_PH28	sunxi_pins.h	/^#define GPIO_PH28	/;"	d
+GPIO_PH29	sunxi_pins.h	/^#define GPIO_PH29	/;"	d
+GPIO_PH30	sunxi_pins.h	/^#define GPIO_PH30	/;"	d
+GPIO_PH31	sunxi_pins.h	/^#define GPIO_PH31	/;"	d
+GPIO_PI00	sunxi_pins.h	/^#define GPIO_PI00	/;"	d
+GPIO_PI01	sunxi_pins.h	/^#define GPIO_PI01	/;"	d
+GPIO_PI02	sunxi_pins.h	/^#define GPIO_PI02	/;"	d
+GPIO_PI03	sunxi_pins.h	/^#define GPIO_PI03	/;"	d
+GPIO_PI04	sunxi_pins.h	/^#define GPIO_PI04	/;"	d
+GPIO_PI05	sunxi_pins.h	/^#define GPIO_PI05	/;"	d
+GPIO_PI06	sunxi_pins.h	/^#define GPIO_PI06	/;"	d
+GPIO_PI07	sunxi_pins.h	/^#define GPIO_PI07	/;"	d
+GPIO_PI08	sunxi_pins.h	/^#define GPIO_PI08	/;"	d
+GPIO_PI09	sunxi_pins.h	/^#define GPIO_PI09	/;"	d
+GPIO_PI10	sunxi_pins.h	/^#define GPIO_PI10	/;"	d
+GPIO_PI11	sunxi_pins.h	/^#define GPIO_PI11	/;"	d
+GPIO_PI12	sunxi_pins.h	/^#define GPIO_PI12	/;"	d
+GPIO_PI13	sunxi_pins.h	/^#define GPIO_PI13	/;"	d
+GPIO_PI14	sunxi_pins.h	/^#define GPIO_PI14	/;"	d
+GPIO_PI15	sunxi_pins.h	/^#define GPIO_PI15	/;"	d
+GPIO_PI16	sunxi_pins.h	/^#define GPIO_PI16	/;"	d
+GPIO_PI17	sunxi_pins.h	/^#define GPIO_PI17	/;"	d
+GPIO_PI18	sunxi_pins.h	/^#define GPIO_PI18	/;"	d
+GPIO_PI19	sunxi_pins.h	/^#define GPIO_PI19	/;"	d
+GPIO_PI20	sunxi_pins.h	/^#define GPIO_PI20	/;"	d
+GPIO_PI21	sunxi_pins.h	/^#define GPIO_PI21	/;"	d
+GPIO_PI22	sunxi_pins.h	/^#define GPIO_PI22	/;"	d
+GPIO_PI23	sunxi_pins.h	/^#define GPIO_PI23	/;"	d
+GPIO_PI24	sunxi_pins.h	/^#define GPIO_PI24	/;"	d
+GPIO_PI25	sunxi_pins.h	/^#define GPIO_PI25	/;"	d
+GPIO_PI26	sunxi_pins.h	/^#define GPIO_PI26	/;"	d
+GPIO_PI27	sunxi_pins.h	/^#define GPIO_PI27	/;"	d
+GPIO_PI28	sunxi_pins.h	/^#define GPIO_PI28	/;"	d
+GPIO_PI29	sunxi_pins.h	/^#define GPIO_PI29	/;"	d
+GPIO_PI30	sunxi_pins.h	/^#define GPIO_PI30	/;"	d
+GPIO_PI31	sunxi_pins.h	/^#define GPIO_PI31	/;"	d
+GPIO_PL00	sunxi_pins.h	/^#define GPIO_PL00	/;"	d
+GPIO_PL01	sunxi_pins.h	/^#define GPIO_PL01	/;"	d
+GPIO_PL02	sunxi_pins.h	/^#define GPIO_PL02	/;"	d
+GPIO_PL03	sunxi_pins.h	/^#define GPIO_PL03	/;"	d
+GPIO_PL04	sunxi_pins.h	/^#define GPIO_PL04	/;"	d
+GPIO_PL05	sunxi_pins.h	/^#define GPIO_PL05	/;"	d
+GPIO_PL06	sunxi_pins.h	/^#define GPIO_PL06	/;"	d
+GPIO_PL07	sunxi_pins.h	/^#define GPIO_PL07	/;"	d
+GPIO_PL08	sunxi_pins.h	/^#define GPIO_PL08	/;"	d
+GPIO_PL09	sunxi_pins.h	/^#define GPIO_PL09	/;"	d
+GPIO_PL10	sunxi_pins.h	/^#define GPIO_PL10	/;"	d
+GPIO_PL11	sunxi_pins.h	/^#define GPIO_PL11	/;"	d
+GPIO_PL12	sunxi_pins.h	/^#define GPIO_PL12	/;"	d
+GPIO_PL13	sunxi_pins.h	/^#define GPIO_PL13	/;"	d
+GPIO_PL14	sunxi_pins.h	/^#define GPIO_PL14	/;"	d
+GPIO_PL15	sunxi_pins.h	/^#define GPIO_PL15	/;"	d
+GPIO_PL16	sunxi_pins.h	/^#define GPIO_PL16	/;"	d
+GPIO_PL17	sunxi_pins.h	/^#define GPIO_PL17	/;"	d
+GPIO_PL18	sunxi_pins.h	/^#define GPIO_PL18	/;"	d
+GPIO_PL19	sunxi_pins.h	/^#define GPIO_PL19	/;"	d
+GPIO_PL20	sunxi_pins.h	/^#define GPIO_PL20	/;"	d
+GPIO_PL21	sunxi_pins.h	/^#define GPIO_PL21	/;"	d
+GPIO_PL22	sunxi_pins.h	/^#define GPIO_PL22	/;"	d
+GPIO_PL23	sunxi_pins.h	/^#define GPIO_PL23	/;"	d
+GPIO_PL24	sunxi_pins.h	/^#define GPIO_PL24	/;"	d
+GPIO_PL25	sunxi_pins.h	/^#define GPIO_PL25	/;"	d
+GPIO_PL26	sunxi_pins.h	/^#define GPIO_PL26	/;"	d
+GPIO_PL27	sunxi_pins.h	/^#define GPIO_PL27	/;"	d
+GPIO_PL28	sunxi_pins.h	/^#define GPIO_PL28	/;"	d
+GPIO_PL29	sunxi_pins.h	/^#define GPIO_PL29	/;"	d
+GPIO_PL30	sunxi_pins.h	/^#define GPIO_PL30	/;"	d
+GPIO_PL31	sunxi_pins.h	/^#define GPIO_PL31	/;"	d
+GPIO_PM00	sunxi_pins.h	/^#define GPIO_PM00	/;"	d
+GPIO_PM01	sunxi_pins.h	/^#define GPIO_PM01	/;"	d
+GPIO_PM02	sunxi_pins.h	/^#define GPIO_PM02	/;"	d
+GPIO_PM03	sunxi_pins.h	/^#define GPIO_PM03	/;"	d
+GPIO_PM04	sunxi_pins.h	/^#define GPIO_PM04	/;"	d
+GPIO_PM05	sunxi_pins.h	/^#define GPIO_PM05	/;"	d
+GPIO_PM06	sunxi_pins.h	/^#define GPIO_PM06	/;"	d
+GPIO_PM07	sunxi_pins.h	/^#define GPIO_PM07	/;"	d
+GPIO_PM08	sunxi_pins.h	/^#define GPIO_PM08	/;"	d
+GPIO_PM09	sunxi_pins.h	/^#define GPIO_PM09	/;"	d
+GPIO_PM10	sunxi_pins.h	/^#define GPIO_PM10	/;"	d
+GPIO_PM11	sunxi_pins.h	/^#define GPIO_PM11	/;"	d
+GPIO_PM12	sunxi_pins.h	/^#define GPIO_PM12	/;"	d
+GPIO_PM13	sunxi_pins.h	/^#define GPIO_PM13	/;"	d
+GPIO_PM14	sunxi_pins.h	/^#define GPIO_PM14	/;"	d
+GPIO_PM15	sunxi_pins.h	/^#define GPIO_PM15	/;"	d
+GPIO_PM16	sunxi_pins.h	/^#define GPIO_PM16	/;"	d
+GPIO_PM17	sunxi_pins.h	/^#define GPIO_PM17	/;"	d
+GPIO_PM18	sunxi_pins.h	/^#define GPIO_PM18	/;"	d
+GPIO_PM19	sunxi_pins.h	/^#define GPIO_PM19	/;"	d
+GPIO_PM20	sunxi_pins.h	/^#define GPIO_PM20	/;"	d
+GPIO_PM21	sunxi_pins.h	/^#define GPIO_PM21	/;"	d
+GPIO_PM22	sunxi_pins.h	/^#define GPIO_PM22	/;"	d
+GPIO_PM23	sunxi_pins.h	/^#define GPIO_PM23	/;"	d
+GPIO_PM24	sunxi_pins.h	/^#define GPIO_PM24	/;"	d
+GPIO_PM25	sunxi_pins.h	/^#define GPIO_PM25	/;"	d
+GPIO_PM26	sunxi_pins.h	/^#define GPIO_PM26	/;"	d
+GPIO_PM27	sunxi_pins.h	/^#define GPIO_PM27	/;"	d
+GPIO_PM28	sunxi_pins.h	/^#define GPIO_PM28	/;"	d
+GPIO_PM29	sunxi_pins.h	/^#define GPIO_PM29	/;"	d
+GPIO_PM30	sunxi_pins.h	/^#define GPIO_PM30	/;"	d
+GPIO_PM31	sunxi_pins.h	/^#define GPIO_PM31	/;"	d
+GPIO_PWM	wiringPi.c	/^#define GPIO_PWM /;"	d	file:
+GPIO_PWM_BP	wiringPi.c	/^#define GPIO_PWM_BP /;"	d	file:
+GPIO_TIMER	wiringPi.c	/^#define GPIO_TIMER /;"	d	file:
+GPIO_TIMER_BP	wiringPi.c	/^#define GPIO_TIMER_BP /;"	d	file:
+GPPUA	mcp23x08.h	/^#define	GPPUA	/;"	d
+GPPUB	mcp23x08.h	/^#define	GPPUB	/;"	d
+GetKeyValue	boardtype_friendlyelec.c	/^                #define GetKeyValue(/;"	d	file:
+HIGH	wiringPi.h	/^#define	HIGH	/;"	d
+I2C_SLAVE	wiringPiI2C.c	/^#define I2C_SLAVE	/;"	d	file:
+I2C_SMBUS	wiringPiI2C.c	/^#define I2C_SMBUS	/;"	d	file:
+I2C_SMBUS_BLOCK_DATA	wiringPiI2C.c	/^#define I2C_SMBUS_BLOCK_DATA	/;"	d	file:
+I2C_SMBUS_BLOCK_MAX	wiringPiI2C.c	/^#define I2C_SMBUS_BLOCK_MAX	/;"	d	file:
+I2C_SMBUS_BLOCK_PROC_CALL	wiringPiI2C.c	/^#define I2C_SMBUS_BLOCK_PROC_CALL /;"	d	file:
+I2C_SMBUS_BYTE	wiringPiI2C.c	/^#define I2C_SMBUS_BYTE	/;"	d	file:
+I2C_SMBUS_BYTE_DATA	wiringPiI2C.c	/^#define I2C_SMBUS_BYTE_DATA	/;"	d	file:
+I2C_SMBUS_I2C_BLOCK_BROKEN	wiringPiI2C.c	/^#define I2C_SMBUS_I2C_BLOCK_BROKEN /;"	d	file:
+I2C_SMBUS_I2C_BLOCK_DATA	wiringPiI2C.c	/^#define I2C_SMBUS_I2C_BLOCK_DATA /;"	d	file:
+I2C_SMBUS_I2C_BLOCK_MAX	wiringPiI2C.c	/^#define I2C_SMBUS_I2C_BLOCK_MAX	/;"	d	file:
+I2C_SMBUS_PROC_CALL	wiringPiI2C.c	/^#define I2C_SMBUS_PROC_CALL	/;"	d	file:
+I2C_SMBUS_QUICK	wiringPiI2C.c	/^#define I2C_SMBUS_QUICK	/;"	d	file:
+I2C_SMBUS_READ	wiringPiI2C.c	/^#define I2C_SMBUS_READ	/;"	d	file:
+I2C_SMBUS_WORD_DATA	wiringPiI2C.c	/^#define I2C_SMBUS_WORD_DATA	/;"	d	file:
+I2C_SMBUS_WRITE	wiringPiI2C.c	/^#define I2C_SMBUS_WRITE	/;"	d	file:
+INPUT	wiringPi.h	/^#define	INPUT	/;"	d
+INTCAPA	mcp23x08.h	/^#define	INTCAPA	/;"	d
+INTCAPB	mcp23x08.h	/^#define	INTCAPB	/;"	d
+INTCONA	mcp23x08.h	/^#define	INTCONA	/;"	d
+INTCONB	mcp23x08.h	/^#define	INTCONB	/;"	d
+INTFA	mcp23x08.h	/^#define	INTFA	/;"	d
+INTFB	mcp23x08.h	/^#define	INTFB	/;"	d
+INT_EDGE_BOTH	wiringPi.h	/^#define	INT_EDGE_BOTH	/;"	d
+INT_EDGE_FALLING	wiringPi.h	/^#define	INT_EDGE_FALLING	/;"	d
+INT_EDGE_RISING	wiringPi.h	/^#define	INT_EDGE_RISING	/;"	d
+INT_EDGE_SETUP	wiringPi.h	/^#define	INT_EDGE_SETUP	/;"	d
+IOCON	mcp23x08.h	/^#define	IOCON	/;"	d
+IOCONB	mcp23x08.h	/^#define	IOCONB	/;"	d
+IOCON_BANK_MODE	mcp23x08.h	/^#define	IOCON_BANK_MODE	/;"	d
+IOCON_BANK_MODE	mcp23x0817.h	/^#define	IOCON_BANK_MODE	/;"	d
+IOCON_DISSLW	mcp23x08.h	/^#define	IOCON_DISSLW	/;"	d
+IOCON_DISSLW	mcp23x0817.h	/^#define	IOCON_DISSLW	/;"	d
+IOCON_HAEN	mcp23x08.h	/^#define	IOCON_HAEN	/;"	d
+IOCON_HAEN	mcp23x0817.h	/^#define	IOCON_HAEN	/;"	d
+IOCON_IARES	mcp23016reg.h	/^#define	IOCON_IARES	/;"	d
+IOCON_INIT	mcp23016reg.h	/^#define	IOCON_INIT	/;"	d
+IOCON_INIT	mcp23x08.h	/^#define	IOCON_INIT	/;"	d
+IOCON_INIT	mcp23x0817.h	/^#define	IOCON_INIT	/;"	d
+IOCON_INTPOL	mcp23x08.h	/^#define	IOCON_INTPOL	/;"	d
+IOCON_INTPOL	mcp23x0817.h	/^#define	IOCON_INTPOL	/;"	d
+IOCON_MIRROR	mcp23x08.h	/^#define	IOCON_MIRROR	/;"	d
+IOCON_MIRROR	mcp23x0817.h	/^#define	IOCON_MIRROR	/;"	d
+IOCON_ODR	mcp23x08.h	/^#define	IOCON_ODR	/;"	d
+IOCON_ODR	mcp23x0817.h	/^#define	IOCON_ODR	/;"	d
+IOCON_SEQOP	mcp23x08.h	/^#define	IOCON_SEQOP	/;"	d
+IOCON_SEQOP	mcp23x0817.h	/^#define	IOCON_SEQOP	/;"	d
+IOCON_UNUSED	mcp23x08.h	/^#define	IOCON_UNUSED	/;"	d
+IOCON_UNUSED	mcp23x0817.h	/^#define	IOCON_UNUSED	/;"	d
+IODIRA	mcp23x08.h	/^#define	IODIRA	/;"	d
+IODIRB	mcp23x08.h	/^#define	IODIRB	/;"	d
+IPOLA	mcp23x08.h	/^#define	IPOLA	/;"	d
+IPOLB	mcp23x08.h	/^#define	IPOLB	/;"	d
+LOGD	boardtype_friendlyelec.c	/^#define LOGD /;"	d	file:
+LOGE	boardtype_friendlyelec.c	/^#define LOGE /;"	d	file:
+LOW	wiringPi.h	/^#define	LOW	/;"	d
+LSBFIRST	wiringShift.h	/^#define	LSBFIRST	/;"	d
+LicheePi_Nano	boardtype_friendlyelec.h	/^#define LicheePi_Nano /;"	d
+MAP_MASK	wiringPi.c	/^#define MAP_MASK /;"	d	file:
+MAP_SIZE	wiringPi.c	/^#define MAP_SIZE /;"	d	file:
+MAX_PINS	softPwm.c	/^#define	MAX_PINS	/;"	d	file:
+MAX_PINS	softTone.c	/^#define	MAX_PINS	/;"	d	file:
+MAX_PIN_COUNT	wiringPi.c	/^#define MAX_PIN_COUNT /;"	d	file:
+MAX_PIN_NUM	wiringPi.c	/^#define MAX_PIN_NUM /;"	d	file:
+MAX_SERVOS	softServo.c	/^#define	MAX_SERVOS	/;"	d	file:
+MCP23016_GP0	mcp23016reg.h	/^#define	MCP23016_GP0	/;"	d
+MCP23016_GP1	mcp23016reg.h	/^#define	MCP23016_GP1	/;"	d
+MCP23016_INTCAP0	mcp23016reg.h	/^#define	MCP23016_INTCAP0	/;"	d
+MCP23016_INTCAP1	mcp23016reg.h	/^#define	MCP23016_INTCAP1	/;"	d
+MCP23016_IOCON0	mcp23016reg.h	/^#define	MCP23016_IOCON0	/;"	d
+MCP23016_IOCON1	mcp23016reg.h	/^#define	MCP23016_IOCON1	/;"	d
+MCP23016_IODIR0	mcp23016reg.h	/^#define	MCP23016_IODIR0	/;"	d
+MCP23016_IODIR1	mcp23016reg.h	/^#define	MCP23016_IODIR1	/;"	d
+MCP23016_IPOL0	mcp23016reg.h	/^#define	MCP23016_IPOL0	/;"	d
+MCP23016_IPOL1	mcp23016reg.h	/^#define	MCP23016_IPOL1	/;"	d
+MCP23016_OLAT0	mcp23016reg.h	/^#define	MCP23016_OLAT0	/;"	d
+MCP23016_OLAT1	mcp23016reg.h	/^#define	MCP23016_OLAT1	/;"	d
+MCP23x08_DEFVAL	mcp23x0817.h	/^#define	MCP23x08_DEFVAL	/;"	d
+MCP23x08_GPINTEN	mcp23x0817.h	/^#define	MCP23x08_GPINTEN	/;"	d
+MCP23x08_GPIO	mcp23x0817.h	/^#define	MCP23x08_GPIO	/;"	d
+MCP23x08_GPPU	mcp23x0817.h	/^#define	MCP23x08_GPPU	/;"	d
+MCP23x08_INTCAP	mcp23x0817.h	/^#define	MCP23x08_INTCAP	/;"	d
+MCP23x08_INTCON	mcp23x0817.h	/^#define	MCP23x08_INTCON	/;"	d
+MCP23x08_INTF	mcp23x0817.h	/^#define	MCP23x08_INTF	/;"	d
+MCP23x08_IOCON	mcp23x0817.h	/^#define	MCP23x08_IOCON	/;"	d
+MCP23x08_IODIR	mcp23x0817.h	/^#define	MCP23x08_IODIR	/;"	d
+MCP23x08_IPOL	mcp23x0817.h	/^#define	MCP23x08_IPOL	/;"	d
+MCP23x08_OLAT	mcp23x0817.h	/^#define	MCP23x08_OLAT	/;"	d
+MCP23x17_DEFVALA	mcp23x0817.h	/^#define	MCP23x17_DEFVALA	/;"	d
+MCP23x17_DEFVALB	mcp23x0817.h	/^#define	MCP23x17_DEFVALB	/;"	d
+MCP23x17_GPINTENA	mcp23x0817.h	/^#define	MCP23x17_GPINTENA	/;"	d
+MCP23x17_GPINTENB	mcp23x0817.h	/^#define	MCP23x17_GPINTENB	/;"	d
+MCP23x17_GPIOA	mcp23x0817.h	/^#define	MCP23x17_GPIOA	/;"	d
+MCP23x17_GPIOB	mcp23x0817.h	/^#define	MCP23x17_GPIOB	/;"	d
+MCP23x17_GPPUA	mcp23x0817.h	/^#define	MCP23x17_GPPUA	/;"	d
+MCP23x17_GPPUB	mcp23x0817.h	/^#define	MCP23x17_GPPUB	/;"	d
+MCP23x17_INTCAPA	mcp23x0817.h	/^#define	MCP23x17_INTCAPA	/;"	d
+MCP23x17_INTCAPB	mcp23x0817.h	/^#define	MCP23x17_INTCAPB	/;"	d
+MCP23x17_INTCONA	mcp23x0817.h	/^#define	MCP23x17_INTCONA	/;"	d
+MCP23x17_INTCONB	mcp23x0817.h	/^#define	MCP23x17_INTCONB	/;"	d
+MCP23x17_INTFA	mcp23x0817.h	/^#define	MCP23x17_INTFA	/;"	d
+MCP23x17_INTFB	mcp23x0817.h	/^#define	MCP23x17_INTFB	/;"	d
+MCP23x17_IOCON	mcp23x0817.h	/^#define	MCP23x17_IOCON	/;"	d
+MCP23x17_IOCONB	mcp23x0817.h	/^#define	MCP23x17_IOCONB	/;"	d
+MCP23x17_IODIRA	mcp23x0817.h	/^#define	MCP23x17_IODIRA	/;"	d
+MCP23x17_IODIRB	mcp23x0817.h	/^#define	MCP23x17_IODIRB	/;"	d
+MCP23x17_IPOLA	mcp23x0817.h	/^#define	MCP23x17_IPOLA	/;"	d
+MCP23x17_IPOLB	mcp23x0817.h	/^#define	MCP23x17_IPOLB	/;"	d
+MCP23x17_OLATA	mcp23x0817.h	/^#define	MCP23x17_OLATA	/;"	d
+MCP23x17_OLATB	mcp23x0817.h	/^#define	MCP23x17_OLATB	/;"	d
+MCP3422_GAIN_1	mcp3422.h	/^#define	MCP3422_GAIN_1	/;"	d
+MCP3422_GAIN_2	mcp3422.h	/^#define	MCP3422_GAIN_2	/;"	d
+MCP3422_GAIN_4	mcp3422.h	/^#define	MCP3422_GAIN_4	/;"	d
+MCP3422_GAIN_8	mcp3422.h	/^#define	MCP3422_GAIN_8	/;"	d
+MCP3422_SR_15	mcp3422.h	/^#define	MCP3422_SR_15	/;"	d
+MCP3422_SR_240	mcp3422.h	/^#define	MCP3422_SR_240	/;"	d
+MCP3422_SR_3_75	mcp3422.h	/^#define	MCP3422_SR_3_75	/;"	d
+MCP3422_SR_60	mcp3422.h	/^#define	MCP3422_SR_60	/;"	d
+MCP_SPEED	mcp23s08.c	/^#define	MCP_SPEED	/;"	d	file:
+MCP_SPEED	mcp23s17.c	/^#define	MCP_SPEED	/;"	d	file:
+MSBFIRST	wiringShift.h	/^#define	MSBFIRST	/;"	d
+NUM_PINS	wiringPi.h	/^#define	NUM_PINS	/;"	d
+NanoPC_T2	boardtype_friendlyelec.h	/^#define NanoPC_T2 /;"	d
+NanoPC_T3	boardtype_friendlyelec.h	/^#define NanoPC_T3 /;"	d
+NanoPC_T3T	boardtype_friendlyelec.h	/^#define NanoPC_T3T /;"	d
+NanoPC_T4	boardtype_friendlyelec.h	/^#define NanoPC_T4 /;"	d
+NanoPi2	boardtype_friendlyelec.h	/^#define NanoPi2 /;"	d
+NanoPi2_Fire	boardtype_friendlyelec.h	/^#define NanoPi2_Fire /;"	d
+NanoPi_A64	boardtype_friendlyelec.h	/^#define NanoPi_A64 /;"	d
+NanoPi_Duo	boardtype_friendlyelec.h	/^#define NanoPi_Duo /;"	d
+NanoPi_Duo2	boardtype_friendlyelec.h	/^#define NanoPi_Duo2 /;"	d
+NanoPi_Fire3	boardtype_friendlyelec.h	/^#define NanoPi_Fire3 /;"	d
+NanoPi_Hero	boardtype_friendlyelec.h	/^#define NanoPi_Hero /;"	d
+NanoPi_K1	boardtype_friendlyelec.h	/^#define NanoPi_K1 /;"	d
+NanoPi_K1_Plus	boardtype_friendlyelec.h	/^#define NanoPi_K1_Plus /;"	d
+NanoPi_K2	boardtype_friendlyelec.h	/^#define NanoPi_K2 /;"	d
+NanoPi_M1	boardtype_friendlyelec.h	/^#define NanoPi_M1 /;"	d
+NanoPi_M1_Plus	boardtype_friendlyelec.h	/^#define NanoPi_M1_Plus /;"	d
+NanoPi_M1_Plus2	boardtype_friendlyelec.h	/^#define NanoPi_M1_Plus2 /;"	d
+NanoPi_M2	boardtype_friendlyelec.h	/^#define NanoPi_M2 /;"	d
+NanoPi_M2A	boardtype_friendlyelec.h	/^#define NanoPi_M2A /;"	d
+NanoPi_M3	boardtype_friendlyelec.h	/^#define NanoPi_M3 /;"	d
+NanoPi_M3B	boardtype_friendlyelec.h	/^#define NanoPi_M3B /;"	d
+NanoPi_M4	boardtype_friendlyelec.h	/^#define NanoPi_M4 /;"	d
+NanoPi_NEO	boardtype_friendlyelec.h	/^#define NanoPi_NEO /;"	d
+NanoPi_NEO2	boardtype_friendlyelec.h	/^#define NanoPi_NEO2 /;"	d
+NanoPi_NEO4	boardtype_friendlyelec.h	/^#define NanoPi_NEO4 /;"	d
+NanoPi_NEO_Air	boardtype_friendlyelec.h	/^#define NanoPi_NEO_Air /;"	d
+NanoPi_NEO_Core	boardtype_friendlyelec.h	/^#define NanoPi_NEO_Core /;"	d
+NanoPi_NEO_Core2	boardtype_friendlyelec.h	/^#define NanoPi_NEO_Core2 /;"	d
+NanoPi_NEO_Plus2	boardtype_friendlyelec.h	/^#define NanoPi_NEO_Plus2 /;"	d
+NanoPi_R1	boardtype_friendlyelec.h	/^#define NanoPi_R1 /;"	d
+NanoPi_S2	boardtype_friendlyelec.h	/^#define NanoPi_S2 /;"	d
+OLATA	mcp23x08.h	/^#define	OLATA	/;"	d
+OLATB	mcp23x08.h	/^#define	OLATB	/;"	d
+OUTPUT	wiringPi.h	/^#define	OUTPUT	/;"	d
+PAGE_SIZE	wiringPi.c	/^#define PAGE_SIZE /;"	d	file:
+PI_MAKER_EGOMAN	wiringPi.h	/^#define	PI_MAKER_EGOMAN	/;"	d
+PI_MAKER_FRIENDLYELEC	wiringPi.h	/^#define PI_MAKER_FRIENDLYELEC /;"	d
+PI_MAKER_HANDSOMEMOD	wiringPi.h	/^#define PI_MAKER_HANDSOMEMOD /;"	d
+PI_MAKER_LEMAKER	wiringPi.h	/^#define PI_MAKER_LEMAKER /;"	d
+PI_MAKER_QISDA	wiringPi.h	/^#define	PI_MAKER_QISDA	/;"	d
+PI_MAKER_SONY	wiringPi.h	/^#define	PI_MAKER_SONY	/;"	d
+PI_MAKER_UNKNOWN	wiringPi.h	/^#define	PI_MAKER_UNKNOWN	/;"	d
+PI_MODEL_UNKNOWN	wiringPi.h	/^#define PI_MODEL_UNKNOWN /;"	d
+PI_THREAD	softPwm.c	/^static PI_THREAD (softPwmThread)$/;"	f	file:
+PI_THREAD	softServo.c	/^static PI_THREAD (softServoThread)$/;"	f	file:
+PI_THREAD	softTone.c	/^static PI_THREAD (softToneThread)$/;"	f	file:
+PI_THREAD	wiringPi.h	/^#define	PI_THREAD(/;"	d
+PI_VERSION_1	wiringPi.h	/^#define	PI_VERSION_1	/;"	d
+PI_VERSION_1_1	wiringPi.h	/^#define	PI_VERSION_1_1	/;"	d
+PI_VERSION_1_2	wiringPi.h	/^#define	PI_VERSION_1_2	/;"	d
+PI_VERSION_2	wiringPi.h	/^#define	PI_VERSION_2	/;"	d
+PI_VERSION_UNKNOWN	wiringPi.h	/^#define	PI_VERSION_UNKNOWN	/;"	d
+POS_GPIO_ALTFEN0	wiringPi.c	/^#define POS_GPIO_ALTFEN0 /;"	d	file:
+POS_GPIO_ALTFEN1	wiringPi.c	/^#define POS_GPIO_ALTFEN1 /;"	d	file:
+POS_GPIO_ENB	wiringPi.c	/^#define POS_GPIO_ENB /;"	d	file:
+POS_GPIO_FAD	wiringPi.c	/^#define POS_GPIO_FAD /;"	d	file:
+POS_GPIO_OUT	wiringPi.c	/^#define POS_GPIO_OUT /;"	d	file:
+PUD_DOWN	wiringPi.h	/^#define	PUD_DOWN	/;"	d
+PUD_OFF	wiringPi.h	/^#define	PUD_OFF	/;"	d
+PUD_UP	wiringPi.h	/^#define	PUD_UP	/;"	d
+PULSE_TIME	softPwm.c	/^#define	PULSE_TIME	/;"	d	file:
+PULSE_TIME	softTone.c	/^#define	PULSE_TIME	/;"	d	file:
+PWM0_DATA	wiringPi.c	/^#define PWM0_DATA /;"	d	file:
+PWM0_ENABLE	wiringPi.c	/^#define PWM0_ENABLE /;"	d	file:
+PWM0_MS_MODE	wiringPi.c	/^#define PWM0_MS_MODE /;"	d	file:
+PWM0_OFFSTATE	wiringPi.c	/^#define PWM0_OFFSTATE /;"	d	file:
+PWM0_RANGE	wiringPi.c	/^#define PWM0_RANGE /;"	d	file:
+PWM0_REPEATFF	wiringPi.c	/^#define PWM0_REPEATFF /;"	d	file:
+PWM0_REVPOLAR	wiringPi.c	/^#define PWM0_REVPOLAR /;"	d	file:
+PWM0_SERIAL	wiringPi.c	/^#define PWM0_SERIAL /;"	d	file:
+PWM0_USEFIFO	wiringPi.c	/^#define PWM0_USEFIFO /;"	d	file:
+PWM1_DATA	wiringPi.c	/^#define PWM1_DATA /;"	d	file:
+PWM1_ENABLE	wiringPi.c	/^#define PWM1_ENABLE /;"	d	file:
+PWM1_MS_MODE	wiringPi.c	/^#define PWM1_MS_MODE /;"	d	file:
+PWM1_OFFSTATE	wiringPi.c	/^#define PWM1_OFFSTATE /;"	d	file:
+PWM1_RANGE	wiringPi.c	/^#define PWM1_RANGE /;"	d	file:
+PWM1_REPEATFF	wiringPi.c	/^#define PWM1_REPEATFF /;"	d	file:
+PWM1_REVPOLAR	wiringPi.c	/^#define PWM1_REVPOLAR /;"	d	file:
+PWM1_SERIAL	wiringPi.c	/^#define PWM1_SERIAL /;"	d	file:
+PWM1_USEFIFO	wiringPi.c	/^#define PWM1_USEFIFO /;"	d	file:
+PWMCLK_CNTL	wiringPi.c	/^#define PWMCLK_CNTL /;"	d	file:
+PWMCLK_DIV	wiringPi.c	/^#define PWMCLK_DIV /;"	d	file:
+PWM_CLK_DIV_120	wiringPi.c	/^#define PWM_CLK_DIV_120 /;"	d	file:
+PWM_CLK_DIV_12K	wiringPi.c	/^#define PWM_CLK_DIV_12K /;"	d	file:
+PWM_CLK_DIV_180	wiringPi.c	/^#define PWM_CLK_DIV_180 /;"	d	file:
+PWM_CLK_DIV_240	wiringPi.c	/^#define PWM_CLK_DIV_240 /;"	d	file:
+PWM_CLK_DIV_24K	wiringPi.c	/^#define PWM_CLK_DIV_24K /;"	d	file:
+PWM_CLK_DIV_360	wiringPi.c	/^#define PWM_CLK_DIV_360 /;"	d	file:
+PWM_CLK_DIV_36K	wiringPi.c	/^#define PWM_CLK_DIV_36K /;"	d	file:
+PWM_CLK_DIV_480	wiringPi.c	/^#define PWM_CLK_DIV_480 /;"	d	file:
+PWM_CLK_DIV_48K	wiringPi.c	/^#define PWM_CLK_DIV_48K /;"	d	file:
+PWM_CLK_DIV_72K	wiringPi.c	/^#define PWM_CLK_DIV_72K /;"	d	file:
+PWM_CONTROL	wiringPi.c	/^#define PWM_CONTROL /;"	d	file:
+PWM_MODE_BAL	wiringPi.h	/^#define	PWM_MODE_BAL	/;"	d
+PWM_MODE_MS	wiringPi.h	/^#define	PWM_MODE_MS	/;"	d
+PWM_OUTPUT	wiringPi.h	/^#define	PWM_OUTPUT	/;"	d
+PWM_STATUS	wiringPi.c	/^#define PWM_STATUS /;"	d	file:
+PWM_TONE_OUTPUT	wiringPi.h	/^#define	PWM_TONE_OUTPUT	/;"	d
+RK3399_BASE	boardtype_friendlyelec.h	/^#define RK3399_BASE /;"	d
+S3C2451_BASE	boardtype_friendlyelec.h	/^#define S3C2451_BASE /;"	d
+S3C2451_COMMON	boardtype_friendlyelec.h	/^#define S3C2451_COMMON /;"	d
+S3C6410_COMMON	boardtype_friendlyelec.h	/^#define S3C6410_COMMON /;"	d
+S5P4412_COMMON	boardtype_friendlyelec.h	/^#define S5P4412_COMMON /;"	d
+S5P4418_BASE	boardtype_friendlyelec.h	/^#define S5P4418_BASE /;"	d
+S5P4418_MAX	boardtype_friendlyelec.h	/^#define S5P4418_MAX /;"	d
+S5P6818_BASE	boardtype_friendlyelec.h	/^#define S5P6818_BASE /;"	d
+S5P6818_MAX	boardtype_friendlyelec.h	/^#define S5P6818_MAX /;"	d
+S5PV210_COMMON	boardtype_friendlyelec.h	/^#define S5PV210_COMMON /;"	d
+SOFT_PWM_OUTPUT	wiringPi.h	/^#define	SOFT_PWM_OUTPUT	/;"	d
+SOFT_TONE_OUTPUT	wiringPi.h	/^#define	SOFT_TONE_OUTPUT	/;"	d
+SUNXI_GPIO_BASE	wiringPi.c	/^#define SUNXI_GPIO_BASE /;"	d	file:
+SUNXI_PWM_BASE	wiringPi.c	/^#define SUNXI_PWM_BASE /;"	d	file:
+SUNXI_PWM_CH0_ACT_STA	wiringPi.c	/^#define SUNXI_PWM_CH0_ACT_STA /;"	d	file:
+SUNXI_PWM_CH0_EN	wiringPi.c	/^#define SUNXI_PWM_CH0_EN /;"	d	file:
+SUNXI_PWM_CH0_MS_MODE	wiringPi.c	/^#define SUNXI_PWM_CH0_MS_MODE /;"	d	file:
+SUNXI_PWM_CH0_PERIOD	wiringPi.c	/^#define SUNXI_PWM_CH0_PERIOD /;"	d	file:
+SUNXI_PWM_CH0_PUL_START	wiringPi.c	/^#define SUNXI_PWM_CH0_PUL_START /;"	d	file:
+SUNXI_PWM_CH1_ACT_STA	wiringPi.c	/^#define SUNXI_PWM_CH1_ACT_STA /;"	d	file:
+SUNXI_PWM_CH1_EN	wiringPi.c	/^#define SUNXI_PWM_CH1_EN /;"	d	file:
+SUNXI_PWM_CH1_MS_MODE	wiringPi.c	/^#define SUNXI_PWM_CH1_MS_MODE /;"	d	file:
+SUNXI_PWM_CH1_PERIOD	wiringPi.c	/^#define SUNXI_PWM_CH1_PERIOD /;"	d	file:
+SUNXI_PWM_CH1_PUL_START	wiringPi.c	/^#define SUNXI_PWM_CH1_PUL_START /;"	d	file:
+SUNXI_PWM_CTRL_REG	wiringPi.c	/^#define SUNXI_PWM_CTRL_REG /;"	d	file:
+SUNXI_PWM_SCLK_CH0_GATING	wiringPi.c	/^#define SUNXI_PWM_SCLK_CH0_GATING /;"	d	file:
+SUNXI_PWM_SCLK_CH1_GATING	wiringPi.c	/^#define SUNXI_PWM_SCLK_CH1_GATING /;"	d	file:
+Smart4418	boardtype_friendlyelec.h	/^#define Smart4418 /;"	d
+Smart4418SDK	boardtype_friendlyelec.h	/^#define Smart4418SDK /;"	d
+Smart6818	boardtype_friendlyelec.h	/^#define Smart6818 /;"	d
+T3_BP_BASE	wiringPi.c	/^#define T3_BP_BASE /;"	d	file:
+T3_GPIO_BASE	wiringPi.c	/^#define T3_GPIO_BASE /;"	d	file:
+TIMER_CONTROL	wiringPi.c	/^#define TIMER_CONTROL /;"	d	file:
+TIMER_COUNTER	wiringPi.c	/^#define TIMER_COUNTER /;"	d	file:
+TIMER_IRQ_CLR	wiringPi.c	/^#define TIMER_IRQ_CLR /;"	d	file:
+TIMER_IRQ_MASK	wiringPi.c	/^#define TIMER_IRQ_MASK /;"	d	file:
+TIMER_IRQ_RAW	wiringPi.c	/^#define TIMER_IRQ_RAW /;"	d	file:
+TIMER_LOAD	wiringPi.c	/^#define TIMER_LOAD /;"	d	file:
+TIMER_PRE_DIV	wiringPi.c	/^#define TIMER_PRE_DIV /;"	d	file:
+TIMER_RELOAD	wiringPi.c	/^#define TIMER_RELOAD /;"	d	file:
+TIMER_VALUE	wiringPi.c	/^#define TIMER_VALUE /;"	d	file:
+TINY200	boardtype_friendlyelec.h	/^#define TINY200 /;"	d
+TRUE	drcSerial.c	/^#  define	TRUE	/;"	d	file:
+TRUE	wiringPi.c	/^#define TRUE /;"	d	file:
+WIRINGNP_SUNXI_PINS_H	sunxi_pins.h	/^#define WIRINGNP_SUNXI_PINS_H$/;"	d
+WPI_ALMOST	wiringPi.h	/^#define	WPI_ALMOST	/;"	d
+WPI_FATAL	wiringPi.h	/^#define	WPI_FATAL	/;"	d
+WPI_MODE_GPIO	wiringPi.h	/^#define	WPI_MODE_GPIO	/;"	d
+WPI_MODE_GPIO_SYS	wiringPi.h	/^#define	WPI_MODE_GPIO_SYS	/;"	d
+WPI_MODE_PHYS	wiringPi.h	/^#define	WPI_MODE_PHYS	/;"	d
+WPI_MODE_PIFACE	wiringPi.h	/^#define	WPI_MODE_PIFACE	/;"	d
+WPI_MODE_PINS	wiringPi.h	/^#define	WPI_MODE_PINS	/;"	d
+WPI_MODE_UNINITIALISED	wiringPi.h	/^#define	WPI_MODE_UNINITIALISED	/;"	d
+__FRIENDLYELEC_BOARDTYPE_H__	boardtype_friendlyelec.h	/^#define __FRIENDLYELEC_BOARDTYPE_H__$/;"	d
+__WIRING_PI_H__	wiringPi.h	/^#define	__WIRING_PI_H__$/;"	d
+__anone174757a0108	boardtype_friendlyelec.h	/^typedef struct {$/;"	s
+allwinnerBoardID	boardtype_friendlyelec.h	/^	char allwinnerBoardID[255];$/;"	m	struct:__anone174757a0108	typeref:typename:char[255]
+allwinner_tempfile	boardtype_friendlyelec.c	/^const char* allwinner_tempfile = "\/sys\/class\/thermal\/thermal_zone0\/temp";$/;"	v	typeref:typename:const char *
+analogRead	wiringPi.c	/^int analogRead(int pin) {$/;"	f	typeref:typename:int
+analogRead	wiringPi.h	/^  int    (*analogRead)      (struct wiringPiNodeStruct *node, int pin) ;$/;"	m	struct:wiringPiNodeStruct	typeref:typename:int (*)(struct wiringPiNodeStruct * node,int pin)
+analogReadDummy	wiringPi.c	/^static int analogReadDummy(struct wiringPiNodeStruct *node, int pin) {$/;"	f	typeref:typename:int	file:
+analogWrite	wiringPi.c	/^void analogWrite(int pin, int value) {$/;"	f	typeref:typename:void
+analogWrite	wiringPi.h	/^  void   (*analogWrite)     (struct wiringPiNodeStruct *node, int pin, int value) ;$/;"	m	struct:wiringPiNodeStruct	typeref:typename:void (*)(struct wiringPiNodeStruct * node,int pin,int value)
+analogWriteDummy	wiringPi.c	/^static void analogWriteDummy(struct wiringPiNodeStruct *node, int pin, int value) {$/;"	f	typeref:typename:void	file:
+block	wiringPiI2C.c	/^  uint8_t  block [I2C_SMBUS_BLOCK_MAX + 2] ;	\/\/ block [0] is used for length + one more for PE/;"	m	union:i2c_smbus_data	typeref:typename:uint8_t[]	file:
+boardDisplayName	boardtype_friendlyelec.h	/^	char boardDisplayName[255];$/;"	m	struct:__anone174757a0108	typeref:typename:char[255]
+boardTypeId	boardtype_friendlyelec.h	/^	int boardTypeId;$/;"	m	struct:__anone174757a0108	typeref:typename:int
+byte	wiringPiI2C.c	/^  uint8_t  byte ;$/;"	m	union:i2c_smbus_data	typeref:typename:uint8_t	file:
+clk	wiringPi.c	/^static volatile uint32_t *clk;$/;"	v	typeref:typename:volatile uint32_t *	file:
+command	wiringPiI2C.c	/^  uint8_t command ;$/;"	m	struct:i2c_smbus_ioctl_data	typeref:typename:uint8_t	file:
+data	wiringPiI2C.c	/^  union i2c_smbus_data *data ;$/;"	m	struct:i2c_smbus_ioctl_data	typeref:union:i2c_smbus_data *	file:
+data0	wiringPi.h	/^  unsigned int data0 ;	\/\/  ditto$/;"	m	struct:wiringPiNodeStruct	typeref:typename:unsigned int
+data1	wiringPi.h	/^  unsigned int data1 ;	\/\/  ditto$/;"	m	struct:wiringPiNodeStruct	typeref:typename:unsigned int
+data2	wiringPi.h	/^  unsigned int data2 ;	\/\/  ditto$/;"	m	struct:wiringPiNodeStruct	typeref:typename:unsigned int
+data3	wiringPi.h	/^  unsigned int data3 ;	\/\/  ditto$/;"	m	struct:wiringPiNodeStruct	typeref:typename:unsigned int
+delay	wiringPi.c	/^void delay(unsigned int howLong) {$/;"	f	typeref:typename:void
+delayMicroseconds	wiringPi.c	/^void delayMicroseconds(unsigned int howLong) {$/;"	f	typeref:typename:void
+delayMicrosecondsHard	wiringPi.c	/^void delayMicrosecondsHard(unsigned int howLong) {$/;"	f	typeref:typename:void
+digitalRead	wiringPi.c	/^int digitalRead(int pin) {$/;"	f	typeref:typename:int
+digitalRead	wiringPi.h	/^  int    (*digitalRead)     (struct wiringPiNodeStruct *node, int pin) ;$/;"	m	struct:wiringPiNodeStruct	typeref:typename:int (*)(struct wiringPiNodeStruct * node,int pin)
+digitalReadDummy	wiringPi.c	/^static int digitalReadDummy(struct wiringPiNodeStruct *node, int pin) {$/;"	f	typeref:typename:int	file:
+digitalReadSilence	wiringPi.c	/^int digitalReadSilence(int pin) {$/;"	f	typeref:typename:int
+digitalWrite	wiringPi.c	/^void digitalWrite(int pin, int value) {$/;"	f	typeref:typename:void
+digitalWrite	wiringPi.h	/^  void   (*digitalWrite)    (struct wiringPiNodeStruct *node, int pin, int value) ;$/;"	m	struct:wiringPiNodeStruct	typeref:typename:void (*)(struct wiringPiNodeStruct * node,int pin,int value)
+digitalWriteByte	wiringPi.c	/^void digitalWriteByte(int value) {$/;"	f	typeref:typename:void
+digitalWriteDummy	wiringPi.c	/^static void digitalWriteDummy(struct wiringPiNodeStruct *node, int pin, int value) {$/;"	f	typeref:typename:void	file:
+drcSetupSerial	drcSerial.c	/^int drcSetupSerial (const int pinBase, const int numPins, const char *device, const int baud)$/;"	f	typeref:typename:int
+dtsmodel	boardtype_friendlyelec.h	/^	char dtsmodel[255]; \/\/mod for mainline kernel$/;"	m	struct:__anone174757a0108	typeref:typename:char[255]
+epochMicro	wiringPi.c	/^static uint64_t epochMilli, epochMicro;$/;"	v	typeref:typename:uint64_t	file:
+epochMilli	wiringPi.c	/^static uint64_t epochMilli, epochMicro;$/;"	v	typeref:typename:uint64_t	file:
+fd	wiringPi.h	/^  int          fd ;	\/\/ Node specific$/;"	m	struct:wiringPiNodeStruct	typeref:typename:int
+freqs	softTone.c	/^static int freqs         [MAX_PINS] ;$/;"	v	typeref:typename:int[]	file:
+gAllBoardHardwareInfo	boardtype_friendlyelec.c	/^BoardHardwareInfo gAllBoardHardwareInfo[] = {$/;"	v	typeref:typename:BoardHardwareInfo[]
+getAllwinnerBoardID	boardtype_friendlyelec.c	/^static int getAllwinnerBoardID(char* boardId, int boardIdMaxLen )$/;"	f	typeref:typename:int	file:
+getAlt	wiringPi.c	/^int getAlt(int pin) {$/;"	f	typeref:typename:int
+getAltSilence	wiringPi.c	/^int getAltSilence(int pin) {$/;"	f	typeref:typename:int
+getBoardType	boardtype_friendlyelec.c	/^int getBoardType(BoardHardwareInfo** retBoardInfo) {$/;"	f	typeref:typename:int
+getDeviceTreeModelInfo	boardtype_friendlyelec.c	/^static int getDeviceTreeModelInfo(char* modelName, int modelNameMaxLen)$/;"	f	typeref:typename:int	file:
+getFieldValueInCpuInfo	boardtype_friendlyelec.c	/^static int getFieldValueInCpuInfo(char* hardware, int hardwareMaxLen, char* revision, int revisi/;"	f	typeref:typename:int	file:
+gpio	wiringPi.c	/^static volatile uint32_t *gpio;$/;"	v	typeref:typename:volatile uint32_t *	file:
+gpioClockSet	wiringPi.c	/^void gpioClockSet(int pin, int freq) {$/;"	f	typeref:typename:void
+head2win	wiringPi.c	/^static int head2win[8] = {11, 12, 13, 15, 16, 18, 22, 7}; \/*add for BananaPro by lemaker team*\/$/;"	v	typeref:typename:int[8]	file:
+i2c_smbus_access	wiringPiI2C.c	/^static inline int i2c_smbus_access (int fd, char rw, uint8_t command, int size, union i2c_smbus_/;"	f	typeref:typename:int	file:
+i2c_smbus_data	wiringPiI2C.c	/^union i2c_smbus_data$/;"	u	file:
+i2c_smbus_ioctl_data	wiringPiI2C.c	/^struct i2c_smbus_ioctl_data$/;"	s	file:
+initialiseEpoch	wiringPi.c	/^static void initialiseEpoch(void) {$/;"	f	typeref:typename:void	file:
+int2bin	wiringPi.c	/^const char * int2bin(uint32_t param) {$/;"	f	typeref:typename:const char *
+isA20	wiringPi.c	/^int isA20(void) {$/;"	f	typeref:typename:int
+kernelHardware	boardtype_friendlyelec.h	/^	char kernelHardware[255];$/;"	m	struct:__anone174757a0108	typeref:typename:char[255]
+kernelRevision	boardtype_friendlyelec.h	/^	int kernelRevision;$/;"	m	struct:__anone174757a0108	typeref:typename:int
+marks	softPwm.c	/^static int marks         [MAX_PINS] ;$/;"	v	typeref:typename:int[]	file:
+max31855Setup	max31855.c	/^int max31855Setup (const int pinBase, int spiChannel)$/;"	f	typeref:typename:int
+max5322Setup	max5322.c	/^int max5322Setup (const int pinBase, int spiChannel)$/;"	f	typeref:typename:int
+mcp23008Setup	mcp23008.c	/^int mcp23008Setup (const int pinBase, const int i2cAddress)$/;"	f	typeref:typename:int
+mcp23016Setup	mcp23016.c	/^int mcp23016Setup (const int pinBase, const int i2cAddress)$/;"	f	typeref:typename:int
+mcp23017Setup	mcp23017.c	/^int mcp23017Setup (const int pinBase, const int i2cAddress)$/;"	f	typeref:typename:int
+mcp23s08Setup	mcp23s08.c	/^int mcp23s08Setup (const int pinBase, const int spiPort, const int devId)$/;"	f	typeref:typename:int
+mcp23s17Setup	mcp23s17.c	/^int mcp23s17Setup (const int pinBase, const int spiPort, const int devId)$/;"	f	typeref:typename:int
+mcp3002Setup	mcp3002.c	/^int mcp3002Setup (const int pinBase, int spiChannel)$/;"	f	typeref:typename:int
+mcp3004Setup	mcp3004.c	/^int mcp3004Setup (const int pinBase, int spiChannel)$/;"	f	typeref:typename:int
+mcp3422Setup	mcp3422.c	/^int mcp3422Setup (int pinBase, int i2cAddress, int sampleRate, int gain)$/;"	f	typeref:typename:int
+mcp4802Setup	mcp4802.c	/^int mcp4802Setup (const int pinBase, int spiChannel)$/;"	f	typeref:typename:int
+micros	wiringPi.c	/^unsigned int micros(void) {$/;"	f	typeref:typename:unsigned int
+millis	wiringPi.c	/^unsigned int millis(void) {$/;"	f	typeref:typename:unsigned int
+myAnalogRead	drcSerial.c	/^static int myAnalogRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myAnalogRead	max31855.c	/^static int myAnalogRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myAnalogRead	mcp3002.c	/^static int myAnalogRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myAnalogRead	mcp3004.c	/^static int myAnalogRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myAnalogRead	mcp3422.c	/^int myAnalogRead (struct wiringPiNodeStruct *node, int chan)$/;"	f	typeref:typename:int
+myAnalogRead	pcf8591.c	/^static int myAnalogRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myAnalogWrite	max5322.c	/^static void myAnalogWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myAnalogWrite	mcp4802.c	/^static void myAnalogWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myAnalogWrite	pcf8591.c	/^static void myAnalogWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myAnalogWrite	sn3218.c	/^static void myAnalogWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myDigitalRead	drcSerial.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myDigitalRead	mcp23008.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myDigitalRead	mcp23016.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myDigitalRead	mcp23017.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myDigitalRead	mcp23s08.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myDigitalRead	mcp23s17.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myDigitalRead	pcf8574.c	/^static int myDigitalRead (struct wiringPiNodeStruct *node, int pin)$/;"	f	typeref:typename:int	file:
+myDigitalWrite	drcSerial.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myDigitalWrite	mcp23008.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myDigitalWrite	mcp23016.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myDigitalWrite	mcp23017.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myDigitalWrite	mcp23s08.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myDigitalWrite	mcp23s17.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myDigitalWrite	pcf8574.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myDigitalWrite	sr595.c	/^static void myDigitalWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+myPinMode	drcSerial.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPinMode	mcp23008.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPinMode	mcp23016.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPinMode	mcp23017.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPinMode	mcp23s08.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPinMode	mcp23s17.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPinMode	pcf8574.c	/^static void myPinMode (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPullUpDnControl	drcSerial.c	/^static void myPullUpDnControl (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPullUpDnControl	mcp23008.c	/^static void myPullUpDnControl (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPullUpDnControl	mcp23017.c	/^static void myPullUpDnControl (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPullUpDnControl	mcp23s08.c	/^static void myPullUpDnControl (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPullUpDnControl	mcp23s17.c	/^static void myPullUpDnControl (struct wiringPiNodeStruct *node, int pin, int mode)$/;"	f	typeref:typename:void	file:
+myPwmWrite	drcSerial.c	/^static void myPwmWrite (struct wiringPiNodeStruct *node, int pin, int value)$/;"	f	typeref:typename:void	file:
+newPin	softPwm.c	/^int newPin = -1 ;$/;"	v	typeref:typename:int
+newPin	softTone.c	/^static int newPin = -1 ;$/;"	v	typeref:typename:int	file:
+next	wiringPi.h	/^  struct wiringPiNodeStruct *next ;$/;"	m	struct:wiringPiNodeStruct	typeref:struct:wiringPiNodeStruct *
+pads	wiringPi.c	/^static volatile uint32_t *pads;$/;"	v	typeref:typename:volatile uint32_t *	file:
+pcf8574Setup	pcf8574.c	/^int pcf8574Setup (const int pinBase, const int i2cAddress)$/;"	f	typeref:typename:int
+pcf8591Setup	pcf8591.c	/^int pcf8591Setup (const int pinBase, const int i2cAddress)$/;"	f	typeref:typename:int
+physPinToGpio	wiringPi.c	/^int physPinToGpio(int physPin) {$/;"	f	typeref:typename:int
+physPinToPin	wiringPi.c	/^int physPinToPin(int physPin) {$/;"	f	typeref:typename:int
+physToGpio	wiringPi.c	/^static int *physToGpio = 0;$/;"	v	typeref:typename:int *	file:
+physToGpio_duo	wiringPi.c	/^static int physToGpio_duo [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+physToGpio_duo2	wiringPi.c	/^static int physToGpio_duo2 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+physToGpio_lichee_nano	wiringPi.c	/^static int physToGpio_lichee_nano [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+physToGpio_m1	wiringPi.c	/^static int physToGpio_m1 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+physToGpio_neo	wiringPi.c	/^static int physToGpio_neo [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+physToGpio_neocore	wiringPi.c	/^static int physToGpio_neocore [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+physToGpio_t3	wiringPi.c	/^static int physToGpio_t3 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+physToGpio_tiny200	wiringPi.c	/^static int physToGpio_tiny200 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+physToPin	wiringPi.c	/^static int *physToPin = 0;$/;"	v	typeref:typename:int *	file:
+physToPin_duo	wiringPi.c	/^static int physToPin_duo [MAX_PIN_COUNT] = \/\/return wiringPI pin \/\/note: same as physToWpi$/;"	v	typeref:typename:int[]	file:
+physToPin_duo2	wiringPi.c	/^static int physToPin_duo2 [MAX_PIN_COUNT] = \/\/return wiringPI pin \/\/note: same as physToWpi$/;"	v	typeref:typename:int[]	file:
+physToPin_lichee_nano	wiringPi.c	/^static int physToPin_lichee_nano [MAX_PIN_COUNT] = { \/\/return wiringPI pin$/;"	v	typeref:typename:int[]	file:
+physToPin_m1	wiringPi.c	/^static int physToPin_m1 [MAX_PIN_COUNT] = \/\/return wiringPI pin$/;"	v	typeref:typename:int[]	file:
+physToPin_neo	wiringPi.c	/^static int physToPin_neo [MAX_PIN_COUNT] = \/\/return wiringPI pin$/;"	v	typeref:typename:int[]	file:
+physToPin_neocore	wiringPi.c	/^static int physToPin_neocore [MAX_PIN_COUNT] = \/\/return wiringPI pin$/;"	v	typeref:typename:int[]	file:
+physToPin_t3	wiringPi.c	/^static int physToPin_t3 [MAX_PIN_COUNT] = \/\/return wiringPI pin$/;"	v	typeref:typename:int[]	file:
+physToPin_tiny200	wiringPi.c	/^static int physToPin_tiny200 [MAX_PIN_COUNT] = \/\/return wiringPI pin$/;"	v	typeref:typename:int[]	file:
+piBoardId	wiringPi.c	/^void piBoardId(int *model, int *rev, int *mem, int *maker, int *overVolted) {$/;"	f	typeref:typename:void
+piBoardRev	wiringPi.c	/^int piBoardRev(void) {$/;"	f	typeref:typename:int
+piBoardRevOops	wiringPi.c	/^static void piBoardRevOops(const char *why) {$/;"	f	typeref:typename:void	file:
+piHiPri	piHiPri.c	/^int piHiPri (const int pri)$/;"	f	typeref:typename:int
+piLock	piThread.c	/^void piLock (int key)$/;"	f	typeref:typename:void
+piMutexes	piThread.c	/^static pthread_mutex_t piMutexes [4] ;$/;"	v	typeref:typename:pthread_mutex_t[4]	file:
+piThreadCreate	piThread.c	/^int piThreadCreate (void *(*fn)(void *))$/;"	f	typeref:typename:int
+piUnlock	piThread.c	/^void piUnlock (int key)$/;"	f	typeref:typename:void
+pinBase	wiringPi.h	/^  int     pinBase ;$/;"	m	struct:wiringPiNodeStruct	typeref:typename:int
+pinMap	softServo.c	/^static int pinMap     [MAX_SERVOS] ;	\/\/ Keep track of our pins$/;"	v	typeref:typename:int[]	file:
+pinMax	wiringPi.h	/^  int     pinMax ;$/;"	m	struct:wiringPiNodeStruct	typeref:typename:int
+pinMode	wiringPi.c	/^void pinMode(int pin, int mode) {$/;"	f	typeref:typename:void
+pinMode	wiringPi.h	/^  void   (*pinMode)         (struct wiringPiNodeStruct *node, int pin, int mode) ;$/;"	m	struct:wiringPiNodeStruct	typeref:typename:void (*)(struct wiringPiNodeStruct * node,int pin,int mode)
+pinModeAlt	wiringPi.c	/^void pinModeAlt(int pin, int mode) {$/;"	f	typeref:typename:void
+pinModeDummy	wiringPi.c	/^static void pinModeDummy(struct wiringPiNodeStruct *node, int pin, int mode) {$/;"	f	typeref:typename:void	file:
+pinPass	wiringPi.c	/^static volatile int pinPass = -1;$/;"	v	typeref:typename:volatile int	file:
+pinToGpio	wiringPi.c	/^static int *pinToGpio = 0;$/;"	v	typeref:typename:int *	file:
+pinToGpio_duo	wiringPi.c	/^static int pinToGpio_duo [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+pinToGpio_duo2	wiringPi.c	/^static int pinToGpio_duo2 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+pinToGpio_lichee_nano	wiringPi.c	/^static int pinToGpio_lichee_nano [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+pinToGpio_m1	wiringPi.c	/^static int pinToGpio_m1 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+pinToGpio_neo	wiringPi.c	/^static int pinToGpio_neo [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+pinToGpio_neocore	wiringPi.c	/^static int pinToGpio_neocore [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+pinToGpio_t3	wiringPi.c	/^static int pinToGpio_t3 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+pinToGpio_tiny200	wiringPi.c	/^static int pinToGpio_tiny200 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+print_pwm_reg	wiringPi.c	/^void print_pwm_reg() {$/;"	f	typeref:typename:void
+pullUpDnControl	wiringPi.c	/^void pullUpDnControl(int pin, int pud) {$/;"	f	typeref:typename:void
+pullUpDnControl	wiringPi.h	/^  void   (*pullUpDnControl) (struct wiringPiNodeStruct *node, int pin, int mode) ;$/;"	m	struct:wiringPiNodeStruct	typeref:typename:void (*)(struct wiringPiNodeStruct * node,int pin,int mode)
+pullUpDnControlDummy	wiringPi.c	/^static void pullUpDnControlDummy(struct wiringPiNodeStruct *node, int pin, int pud) {$/;"	f	typeref:typename:void	file:
+pulseWidth	softServo.c	/^static int pulseWidth [MAX_SERVOS] ;	\/\/ microseconds$/;"	v	typeref:typename:int[]	file:
+pwm	wiringPi.c	/^static volatile uint32_t *pwm;$/;"	v	typeref:typename:volatile uint32_t *	file:
+pwmSetClock	wiringPi.c	/^void pwmSetClock(int divisor) {$/;"	f	typeref:typename:void
+pwmSetMode	wiringPi.c	/^void pwmSetMode(int mode) {$/;"	f	typeref:typename:void
+pwmSetRange	wiringPi.c	/^void pwmSetRange(unsigned int range) {$/;"	f	typeref:typename:void
+pwmToneWrite	wiringPi.c	/^void pwmToneWrite(int pin, int freq) {$/;"	f	typeref:typename:void
+pwmWrite	wiringPi.c	/^void pwmWrite(int pin, int value) {$/;"	f	typeref:typename:void
+pwmWrite	wiringPi.h	/^  void   (*pwmWrite)        (struct wiringPiNodeStruct *node, int pin, int value) ;$/;"	m	struct:wiringPiNodeStruct	typeref:typename:void (*)(struct wiringPiNodeStruct * node,int pin,int value)
+pwmWriteDummy	wiringPi.c	/^static void pwmWriteDummy(struct wiringPiNodeStruct *node, int pin, int value) {$/;"	f	typeref:typename:void	file:
+pwmmode	wiringPi.c	/^static int pwmmode = 0;$/;"	v	typeref:typename:int	file:
+range	softPwm.c	/^static int range         [MAX_PINS] ;$/;"	v	typeref:typename:int[]	file:
+readByte	mcp23s08.c	/^static uint8_t readByte (uint8_t spiPort, uint8_t devId, uint8_t reg)$/;"	f	typeref:typename:uint8_t	file:
+readByte	mcp23s17.c	/^static uint8_t readByte (uint8_t spiPort, uint8_t devId, uint8_t reg)$/;"	f	typeref:typename:uint8_t	file:
+read_write	wiringPiI2C.c	/^  char read_write ;$/;"	m	struct:i2c_smbus_ioctl_data	typeref:typename:char	file:
+readl	wiringPi.c	/^uint32_t readl(uint32_t addr) {$/;"	f	typeref:typename:uint32_t
+regval_AltF	wiringPi.c	/^#define regval_AltF /;"	d	file:
+regval_out	wiringPi.c	/^#define regval_out /;"	d	file:
+regvals	wiringPi.c	/^#define regvals /;"	d	file:
+s5p_board_cputempfile	boardtype_friendlyelec.c	/^const char* s5p_board_cputempfile = "\/sys\/class\/hwmon\/hwmon0\/device\/temp_label";$/;"	v	typeref:typename:const char *
+s5p_board_max_cputempfile	boardtype_friendlyelec.c	/^const char* s5p_board_max_cputempfile = "\/sys\/class\/hwmon\/hwmon0\/device\/temp_max";$/;"	v	typeref:typename:const char *
+serialClose	wiringSerial.c	/^void serialClose (const int fd)$/;"	f	typeref:typename:void
+serialDataAvail	wiringSerial.c	/^int serialDataAvail (const int fd)$/;"	f	typeref:typename:int
+serialFlush	wiringSerial.c	/^void serialFlush (const int fd)$/;"	f	typeref:typename:void
+serialGetchar	wiringSerial.c	/^int serialGetchar (const int fd)$/;"	f	typeref:typename:int
+serialOpen	wiringSerial.c	/^int serialOpen (const char *device, const int baud)$/;"	f	typeref:typename:int
+serialPrintf	wiringSerial.c	/^void serialPrintf (const int fd, const char *message, ...)$/;"	f	typeref:typename:void
+serialPutchar	wiringSerial.c	/^void serialPutchar (const int fd, const unsigned char c)$/;"	f	typeref:typename:void
+serialPuts	wiringSerial.c	/^void serialPuts (const int fd, const char *s)$/;"	f	typeref:typename:void
+setPadDrive	wiringPi.c	/^void setPadDrive(int group, int value) {$/;"	f	typeref:typename:void
+shiftIn	wiringShift.c	/^uint8_t shiftIn (uint8_t dPin, uint8_t cPin, uint8_t order)$/;"	f	typeref:typename:uint8_t
+shiftOut	wiringShift.c	/^void shiftOut (uint8_t dPin, uint8_t cPin, uint8_t order, uint8_t val)$/;"	f	typeref:typename:void
+size	wiringPiI2C.c	/^  int size ;$/;"	m	struct:i2c_smbus_ioctl_data	typeref:typename:int	file:
+sn3218Setup	sn3218.c	/^int sn3218Setup (const int pinBase)$/;"	f	typeref:typename:int
+softPwmCreate	softPwm.c	/^int softPwmCreate (int pin, int initialValue, int pwmRange)$/;"	f	typeref:typename:int
+softPwmStop	softPwm.c	/^void softPwmStop (int pin)$/;"	f	typeref:typename:void
+softPwmWrite	softPwm.c	/^void softPwmWrite (int pin, int value)$/;"	f	typeref:typename:void
+softServoSetup	softServo.c	/^int softServoSetup (int p0, int p1, int p2, int p3, int p4, int p5, int p6, int p7)$/;"	f	typeref:typename:int
+softServoWrite	softServo.c	/^void softServoWrite (int servoPin, int value)$/;"	f	typeref:typename:void
+softToneCreate	softTone.c	/^int softToneCreate (int pin)$/;"	f	typeref:typename:int
+softToneStop	softTone.c	/^void softToneStop (int pin)$/;"	f	typeref:typename:void
+softToneWrite	softTone.c	/^void softToneWrite (int pin, int freq)$/;"	f	typeref:typename:void
+spiBPW	wiringPiSPI.c	/^static const uint8_t     spiBPW   = 8 ;$/;"	v	typeref:typename:const uint8_t	file:
+spiDelay	wiringPiSPI.c	/^static const uint16_t    spiDelay = 0 ;$/;"	v	typeref:typename:const uint16_t	file:
+spiDev0	wiringPiSPI.c	/^static const char       *spiDev0  = "\/dev\/spidev0.0" ;$/;"	v	typeref:typename:const char *	file:
+spiDev1	wiringPiSPI.c	/^static const char       *spiDev1  = "\/dev\/spidev0.1" ;$/;"	v	typeref:typename:const char *	file:
+spiFds	wiringPiSPI.c	/^static int         spiFds [2] ;$/;"	v	typeref:typename:int[2]	file:
+spiSpeeds	wiringPiSPI.c	/^static uint32_t    spiSpeeds [2] ;$/;"	v	typeref:typename:uint32_t[2]	file:
+sr595Setup	sr595.c	/^int sr595Setup (const int pinBase, const int numPins,$/;"	f	typeref:typename:int
+sunxi_digitalRead	wiringPi.c	/^int sunxi_digitalRead(int pin) {$/;"	f	typeref:typename:int
+sunxi_digitalWrite	wiringPi.c	/^void sunxi_digitalWrite(int pin, int value) {$/;"	f	typeref:typename:void
+sunxi_get_gpio_mode	wiringPi.c	/^int sunxi_get_gpio_mode(int pin) {$/;"	f	typeref:typename:int
+sunxi_pullUpDnControl	wiringPi.c	/^void sunxi_pullUpDnControl(int pin, int pud) {$/;"	f	typeref:typename:void
+sunxi_pwm_get_act	wiringPi.c	/^uint32_t sunxi_pwm_get_act(void) {$/;"	f	typeref:typename:uint32_t
+sunxi_pwm_get_period	wiringPi.c	/^uint32_t sunxi_pwm_get_period(void) {$/;"	f	typeref:typename:uint32_t
+sunxi_pwm_set_act	wiringPi.c	/^void sunxi_pwm_set_act(int act_cys) {$/;"	f	typeref:typename:void
+sunxi_pwm_set_clk	wiringPi.c	/^void sunxi_pwm_set_clk(int clk) {$/;"	f	typeref:typename:void
+sunxi_pwm_set_enable	wiringPi.c	/^void sunxi_pwm_set_enable(int en) {$/;"	f	typeref:typename:void
+sunxi_pwm_set_mode	wiringPi.c	/^void sunxi_pwm_set_mode(int mode) {$/;"	f	typeref:typename:void
+sunxi_pwm_set_period	wiringPi.c	/^void sunxi_pwm_set_period(int period_cys) {$/;"	f	typeref:typename:void
+sunxi_set_gpio_mode	wiringPi.c	/^void sunxi_set_gpio_mode(int pin, int mode) {$/;"	f	typeref:typename:void
+sysFds	wiringPi.c	/^static int sysFds [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+syspin	wiringPi.c	/^static int *syspin = 0;$/;"	v	typeref:typename:int *	file:
+syspin_duo	wiringPi.c	/^static int syspin_duo [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+syspin_duo2	wiringPi.c	/^static int syspin_duo2 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+syspin_lichee_nano	wiringPi.c	/^static int syspin_lichee_nano [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+syspin_m1	wiringPi.c	/^static int syspin_m1 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+syspin_neo	wiringPi.c	/^static int syspin_neo [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+syspin_neocore	wiringPi.c	/^static int syspin_neocore [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+syspin_t3	wiringPi.c	/^static int syspin_t3 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+syspin_tiny200	wiringPi.c	/^static int syspin_tiny200 [MAX_PIN_COUNT] ={$/;"	v	typeref:typename:int[]	file:
+threads	softPwm.c	/^static pthread_t threads [MAX_PINS] ;$/;"	v	typeref:typename:pthread_t[]	file:
+threads	softTone.c	/^static pthread_t threads [MAX_PINS] ;$/;"	v	typeref:typename:pthread_t[]	file:
+timer	wiringPi.c	/^static volatile uint32_t *timer;$/;"	v	typeref:typename:volatile uint32_t *	file:
+timerIrqRaw	wiringPi.c	/^static volatile uint32_t *timerIrqRaw;$/;"	v	typeref:typename:volatile uint32_t *	file:
+upDnConvert	wiringPi.c	/^static int upDnConvert[3] = {7, 7, 5};$/;"	v	typeref:typename:int[3]	file:
+version	wiringPi.c	/^static int version = 0;$/;"	v	typeref:typename:int	file:
+waitForInterrupt	wiringPi.c	/^int waitForInterrupt(int pin, int mS) {$/;"	f	typeref:typename:int
+wiringPiCodes	wiringPi.c	/^int wiringPiCodes = FALSE;$/;"	v	typeref:typename:int
+wiringPiDebug	wiringPi.c	/^int wiringPiDebug = FALSE; \/\/ guenter FALSE ;$/;"	v	typeref:typename:int
+wiringPiFailure	wiringPi.c	/^int wiringPiFailure(int fatal, const char *message, ...) {$/;"	f	typeref:typename:int
+wiringPiFindNode	wiringPi.c	/^struct wiringPiNodeStruct *wiringPiFindNode(int pin) {$/;"	f	typeref:struct:wiringPiNodeStruct *
+wiringPiI2CRead	wiringPiI2C.c	/^int wiringPiI2CRead (int fd)$/;"	f	typeref:typename:int
+wiringPiI2CReadReg16	wiringPiI2C.c	/^int wiringPiI2CReadReg16 (int fd, int reg)$/;"	f	typeref:typename:int
+wiringPiI2CReadReg8	wiringPiI2C.c	/^int wiringPiI2CReadReg8 (int fd, int reg)$/;"	f	typeref:typename:int
+wiringPiI2CSetup	wiringPiI2C.c	/^int wiringPiI2CSetup (const int devId)$/;"	f	typeref:typename:int
+wiringPiI2CSetupInterface	wiringPiI2C.c	/^int wiringPiI2CSetupInterface (const char *device, int devId)$/;"	f	typeref:typename:int
+wiringPiI2CWrite	wiringPiI2C.c	/^int wiringPiI2CWrite (int fd, int data)$/;"	f	typeref:typename:int
+wiringPiI2CWriteReg16	wiringPiI2C.c	/^int wiringPiI2CWriteReg16 (int fd, int reg, int value)$/;"	f	typeref:typename:int
+wiringPiI2CWriteReg8	wiringPiI2C.c	/^int wiringPiI2CWriteReg8 (int fd, int reg, int value)$/;"	f	typeref:typename:int
+wiringPiISR	wiringPi.c	/^int wiringPiISR(int pin, int mode, void (*function)(void)) {$/;"	f	typeref:typename:int
+wiringPiMode	wiringPi.c	/^static int wiringPiMode = WPI_MODE_UNINITIALISED;$/;"	v	typeref:typename:int	file:
+wiringPiNewNode	wiringPi.c	/^struct wiringPiNodeStruct *wiringPiNewNode(int pinBase, int numPins) {$/;"	f	typeref:struct:wiringPiNodeStruct *
+wiringPiNodeStruct	wiringPi.h	/^struct wiringPiNodeStruct$/;"	s
+wiringPiNodes	wiringPi.c	/^struct wiringPiNodeStruct *wiringPiNodes = NULL;$/;"	v	typeref:struct:wiringPiNodeStruct *
+wiringPiReturnCodes	wiringPi.c	/^int wiringPiReturnCodes = FALSE;$/;"	v	typeref:typename:int
+wiringPiSPIDataRW	wiringPiSPI.c	/^int wiringPiSPIDataRW (int channel, unsigned char *data, int len)$/;"	f	typeref:typename:int
+wiringPiSPIGetFd	wiringPiSPI.c	/^int wiringPiSPIGetFd (int channel)$/;"	f	typeref:typename:int
+wiringPiSPISetup	wiringPiSPI.c	/^int wiringPiSPISetup (int channel, int speed)$/;"	f	typeref:typename:int
+wiringPiSPISetupMode	wiringPiSPI.c	/^int wiringPiSPISetupMode (int channel, int speed, int mode)$/;"	f	typeref:typename:int
+wiringPiSetup	wiringPi.c	/^int wiringPiSetup(void) {$/;"	f	typeref:typename:int
+wiringPiSetupGpio	wiringPi.c	/^int wiringPiSetupGpio(void) {$/;"	f	typeref:typename:int
+wiringPiSetupPhys	wiringPi.c	/^int wiringPiSetupPhys(void) {$/;"	f	typeref:typename:int
+wiringPiSetupSys	wiringPi.c	/^int wiringPiSetupSys(void) {$/;"	f	typeref:typename:int
+wiringPinMode	wiringPi.c	/^static int wiringPinMode = WPI_MODE_UNINITIALISED;$/;"	v	typeref:typename:int	file:
+word	wiringPiI2C.c	/^  uint16_t word ;$/;"	m	union:i2c_smbus_data	typeref:typename:uint16_t	file:
+wpiPinToGpio	wiringPi.c	/^int wpiPinToGpio(int wpiPin) {$/;"	f	typeref:typename:int
+writeByte	mcp23s08.c	/^static void writeByte (uint8_t spiPort, uint8_t devId, uint8_t reg, uint8_t data)$/;"	f	typeref:typename:void	file:
+writeByte	mcp23s17.c	/^static void writeByte (uint8_t spiPort, uint8_t devId, uint8_t reg, uint8_t data)$/;"	f	typeref:typename:void	file:
+writel	wiringPi.c	/^void writel(uint32_t val, uint32_t addr) {$/;"	f	typeref:typename:void

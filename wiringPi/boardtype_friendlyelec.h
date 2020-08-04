@@ -20,6 +20,7 @@ typedef struct {
 	int boardTypeId;
 	char boardDisplayName[255];
 	char allwinnerBoardID[255];
+	char dtsmodel[255]; //mod for mainline kernel
 } BoardHardwareInfo;
 
 #define S3C6410_COMMON (6410)
@@ -70,7 +71,8 @@ typedef struct {
 #define NanoPi_Duo2 (ALLWINNER_BASE+15)
 #define NanoPi_R1 (ALLWINNER_BASE+16)
 #define TINY200 (ALLWINNER_BASE+17)
-#define ALLWINNER_MAX TINY200
+#define LicheePi_Nano (ALLWINNER_BASE+18)
+#define ALLWINNER_MAX LicheePi_Nano
 
 //amlogic
 #define AMLOGIC_BASE (8000)
