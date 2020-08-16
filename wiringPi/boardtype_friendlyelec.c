@@ -324,11 +324,11 @@ int getBoardType(BoardHardwareInfo** retBoardInfo) {
     {
        int ret = getDeviceTreeModelInfo(modelName,sizeof(modelName));
        if(ret == 0){
-        LOGD("getmodel : %s\n",modelName);
+        //LOGD("getmodel : %s\n",modelName);
         for (i = 0; i < (sizeof(gAllBoardHardwareInfo)/sizeof(BoardHardwareInfo)); i++) {
             if (strncasecmp(gAllBoardHardwareInfo[i].dtsmodel,
                             modelName,
-                            strlen(gAllBoardHardwareInfo[i].dtsmodel)) == 0) {
+                            strlen(modelName)) == 0) {
                 if (retBoardInfo != 0) {
                     *retBoardInfo = &gAllBoardHardwareInfo[i];
                 }

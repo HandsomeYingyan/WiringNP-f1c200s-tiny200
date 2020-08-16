@@ -779,6 +779,9 @@ static void readallPhys (int faBoardId, int physPin, int pair)
   } else if (faBoardId == TINY200) {
       physToWpi = physToWpi_tiny200;
       physNames = physNames_tiny200;
+  }else if (faBoardId == LicheePi_Nano) {
+      physToWpi = physToWpi_lichee_nano;
+      physNames = physNames_lichee_nano;
   }else {
       return ;
   }
@@ -1000,7 +1003,7 @@ void NanoPiReadAll()
     || retBoardInfo->boardTypeId == NanoPi_M1_Plus 
     || retBoardInfo->boardTypeId == NanoPi_M1_Plus2
     || retBoardInfo->boardTypeId == TINY200
-    || retBoardInfo->boardTypeId == LicheePi_Nano {
+    || retBoardInfo->boardTypeId == LicheePi_Nano) {
     // nothing to do.
   } else if (retBoardInfo->boardTypeId == NanoPi_NEO 
     || retBoardInfo->boardTypeId == NanoPi_NEO_Air 

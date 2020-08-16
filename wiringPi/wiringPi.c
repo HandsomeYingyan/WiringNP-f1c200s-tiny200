@@ -868,7 +868,10 @@ static int physToGpio_duo2 [MAX_PIN_COUNT] ={
      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
 
      /* 64~73 */
-     -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,static char *physNames_tiny200 [MAX_PIN_COUNT] =
+     -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+};
+
+static char *physNames_tiny200 [MAX_PIN_COUNT] =
         {
                 NULL,
                 /* 24 Pin */
