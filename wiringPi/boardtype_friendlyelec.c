@@ -320,7 +320,7 @@ int getBoardType(BoardHardwareInfo** retBoardInfo) {
     //for mainline (4.x and above) check model name in dtb
     //mod by handsomeyingyan <handsomeyingyan@gmail.com>
     //supported socs: f1cx00s
-    if(strncasecmp(hardware,f1cx00s_kernel4,strlen(f1cx00s_kernel4) == 0))
+    if(strncasecmp(hardware,f1cx00s_kernel4,strlen(f1cx00s_kernel4)) == 0)
     {
        int ret = getDeviceTreeModelInfo(modelName,sizeof(modelName));
        if(ret == 0){
