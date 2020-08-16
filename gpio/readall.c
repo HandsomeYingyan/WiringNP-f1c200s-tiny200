@@ -362,8 +362,8 @@ static char *physNames_lichee_nano [MAX_PIN_COUNT] =
                 " GPIOE09", "GPIOA03 ",
                 " GPIOE10", "GPIOA02 ",
                 " GPIOE11", "GPIOA01  ",
-                /*End*/
-                NULL, NULL,
+                " GPIOE12", "GPIOA00 ",
+	      /*end here*/
                 NULL, NULL,
                 NULL, NULL,
                 NULL, NULL,
