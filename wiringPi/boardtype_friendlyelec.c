@@ -45,17 +45,17 @@ BoardHardwareInfo gAllBoardHardwareInfo[] = {
     {"sun8i", 0, NanoPi_Duo2,     "NanoPi-Duo2",     "8(0)",""},
     {"sun8i", 0, NanoPi_R1,       "NanoPi-R1",       "9(0)",""},
 
-    // kernel 4.x
-    {"Allwinnersun8iFamily", 0, NanoPi_M1,       "NanoPi-M1",       "0(0)",""},
-    {"Allwinnersun8iFamily", 0, NanoPi_NEO,      "NanoPi-NEO",      "1(0)",""},
-    {"Allwinnersun8iFamily", 0, NanoPi_NEO_Air,  "NanoPi-NEO-Air",  "2(0)",""},
-    {"Allwinnersun8iFamily", 0, NanoPi_M1_Plus,  "NanoPi-M1-Plus",  "3(0)",""},
-    {"Allwinnersun8iFamily", 0, NanoPi_Duo,      "NanoPi-Duo",      "4(0)",""},
-    {"Allwinnersun8iFamily", 0, NanoPi_NEO_Core, "NanoPi-NEO-Core", "5(0)",""},
-    {"Allwinnersun8iFamily", 0, NanoPi_K1,       "NanoPi-K1",       "6(0)",""},
-    {"Allwinnersun8iFamily", 0, NanoPi_Hero,     "NanoPi-Hero",     "7(0)",""},
-    {"Allwinnersun8iFamily", 0, NanoPi_Duo2,     "NanoPi-Duo2",     "8(0)",""},
-    {"Allwinnersun8iFamily", 0, NanoPi_R1,       "NanoPi-R1",       "9(0)",""},
+    // kernel 4.x and above
+    {"Allwinnersun8iFamily", 0, NanoPi_M1,       "NanoPi-M1",       "0(0)","FriendlyArmNanoPiM1"},
+    {"Allwinnersun8iFamily", 0, NanoPi_NEO,      "NanoPi-NEO",      "1(0)","FriendlyARMNanoPiNEO"},
+    {"Allwinnersun8iFamily", 0, NanoPi_NEO_Air,  "NanoPi-NEO-Air",  "2(0)","FriendlyARMNanoPiNEOAir"},
+    {"Allwinnersun8iFamily", 0, NanoPi_M1_Plus,  "NanoPi-M1-Plus",  "3(0)","FriendlyARMNanoPiM1Plus"},
+    {"Allwinnersun8iFamily", 0, NanoPi_Duo,      "NanoPi-Duo",      "4(0)","FriendlyARMNanoPiDuo"},
+    {"Allwinnersun8iFamily", 0, NanoPi_NEO_Core, "NanoPi-NEO-Core", "5(0)","FriendlyARMNanoPiNEOCore"},
+    {"Allwinnersun8iFamily", 0, NanoPi_K1,       "NanoPi-K1",       "6(0)","FriendlyARMNanoPiK1"},
+    {"Allwinnersun8iFamily", 0, NanoPi_Hero,     "NanoPi-Hero",     "7(0)","FriendlyARMNanoPiHERO"},
+    {"Allwinnersun8iFamily", 0, NanoPi_Duo2,     "NanoPi-Duo2",     "8(0)","FriendlyARMNanoPiDUO2"},
+    {"Allwinnersun8iFamily", 0, NanoPi_R1,       "NanoPi-R1",       "9(0)","FriendlyARMNanoPiR1"},
     //mainline kernel
     {"AllwinnersunivFamily", 0, TINY200,       "Widora-Tiny200",    "10(0)","Tiny200"},
     {"AllwinnersunivFamily", 0, LicheePi_Nano, "LicheePi-Nano",    "11(0)","LicheePiNano"},
@@ -287,7 +287,7 @@ int getBoardType(BoardHardwareInfo** retBoardInfo) {
 
     // h3 and h5, check hardware and boardid
     if (strncasecmp(hardware, h3, strlen(h3)) == 0 || strncasecmp(hardware, h5, strlen(h5)) == 0
-        || strncasecmp(hardware, h3_kernel4, strlen(h3_kernel4)) == 0 || strncasecmp(hardware, h5_kernel4, strlen(h5_kernel4)) == 0) {
+        || strncasecmp(hardware, h5_kernel4, strlen(h5_kernel4)) == 0) {
         int ret = getAllwinnerBoardID(allwinnerBoardID, sizeof(allwinnerBoardID));
         if (ret == 0) {
             //LOGD("got boardid: %s\n", allwinnerBoardID);
@@ -320,7 +320,7 @@ int getBoardType(BoardHardwareInfo** retBoardInfo) {
     //for mainline (4.x and above) check model name in dtb
     //mod by handsomeyingyan <handsomeyingyan@gmail.com>
     //supported socs: f1cx00s
-    if(strncasecmp(hardware,f1cx00s_kernel4,strlen(f1cx00s_kernel4)) == 0)
+    if(strncasecmp(hardware,f1cx00s_kernel4,strlen(f1cx00s_kernel4)) == 0 || strncasecmp(hardware, h3_kernel4, strlen(h3_kernel4)) == 0)
     {
        int ret = getDeviceTreeModelInfo(modelName,sizeof(modelName));
        if(ret == 0){
